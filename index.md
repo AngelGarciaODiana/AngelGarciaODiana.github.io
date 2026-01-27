@@ -9,8 +9,8 @@ layout: default
         
         <h1 class="profile-name">Angel A. García O'Diana</h1>
         <p class="profile-role">
-            Principal Investigator & CEO @ PsiNet LAB<br>
-            Professor @ UCV<br>
+            CEO | PsiNet LAB<br>
+            Professor | UCV<br>
             <span style="color: var(--accent); font-size: 0.9em;">Data Scientist</span>
         </p>
         
@@ -27,13 +27,13 @@ layout: default
         <h2 class="section-title">About</h2>
         
         <p>
-            Soy <strong>Principal Investigator & CEO</strong> en <strong style="color: var(--accent);">PsiNet LAB</strong> y docente investigador en la <strong>Universidad César Vallejo</strong> (Perú). 
+            I am the <strong>CEO</strong> of <strong style="color: var(--accent);">PsiNet LAB</strong> and a research professor at <strong>César Vallejo University</strong> (Perú). 
         </p>
         <p>
-            Cuento con una Maestría de Investigación en Docencia Universitaria con especialización en <strong>Ciencia Computacional</strong> (<em>Magna Cum Laude</em>). Mi enfoque científico integra la <strong>Psicología de la Paz</strong>, los <strong>Métodos Cuantitativos Avanzados</strong> y la <strong>Ciencia de Datos</strong> (R, Python, Julia) para modelar y comprender la complejidad del comportamiento humano y las dinámicas sociales.
+            I hold a Master's Degree in University Teaching Research with a specialization in <strong>Computer Science</strong>. My scientific approach integrates <strong>Peace Psychology</strong>, <strong>Advanced Quantitative Methods</strong>, and <strong>Data Science</strong> (R, Python, Julia, C#, SQL) to model and understand the complexity of human behavior and social dynamics.
         </p>
         <p>
-            Actualmente, lidero investigaciones sobre el análisis de redes psicométricas y el impacto de factores psicosociales en la salud mental pública.
+            Currently, I lead research on psychometric network analysis and the impact of psychosocial factors on public mental health.
         </p>
 
         <div class="info-grid">
@@ -42,7 +42,7 @@ layout: default
                 <ul class="clean-list">
                     <li>• Peace Psychology</li>
                     <li>• Computational Science</li>
-                    <li>• Network Analysis (SNA)</li>
+                    <li>• Network Analysis</li>
                     <li>• Psychometrics & Data Science</li>
                 </ul>
             </div>
@@ -53,14 +53,14 @@ layout: default
                     <li>
                         <i class="fas fa-user-graduate"></i>
                         <div>
-                            <strong>PhD, Salud Pública (En curso)</strong><br>
+                            <strong>PhD, Public Health (En curso)</strong><br>
                             <small>Universidad César Vallejo</small>
                         </div>
                     </li>
                     <li>
                         <i class="fas fa-user-graduate"></i>
                         <div>
-                            <strong>MSc, Research in University Education</strong><br>
+                            <strong>MSc, University Education</strong><br>
                             <small>Universidad César Vallejo (2024)</small><br>
                             <small style="color: var(--accent);">★ Magna Cum Laude</small>
                         </div>
@@ -82,7 +82,9 @@ layout: default
              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
                 <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">R (Advanced)</span>
                 <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">Python (Advanced)</span>
-                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">MATLAB</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">MATLAB (Advanced)</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">C# (Advanced)</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">SQL</span>
                 <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">Julia</span>
              </div>
         </div>
