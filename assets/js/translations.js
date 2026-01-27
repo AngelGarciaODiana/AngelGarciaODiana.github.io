@@ -36,7 +36,7 @@ const translations = {
         "honor_cum": "★ Cum Laude",
         "skills_title": "Habilidades de Software",
         
-        "footer_text": "© 2026 Ángel García Odiana | Ciencia de Datos & Psicología"
+        "footer_text": "© 2026 Ángel García Odiana | Ciencia de Datos & Psicología",
 
         // --- EXPERIENCIA ---
         "exp_1_role": "Investigador Principal & CEO",
@@ -92,7 +92,7 @@ const translations = {
         "honor_cum": "★ Cum Laude",
         "skills_title": "Software Skills",
         
-        "footer_text": "© 2026 Ángel García Odiana | Data Science & Psychology"
+        "footer_text": "© 2026 Ángel García Odiana | Data Science & Psychology",
 
         "exp_1_role": "Principal Investigator & CEO",
         "exp_1_date": "Jan 2024 – Present",
@@ -147,7 +147,7 @@ const translations = {
         "honor_cum": "★ Cum Laude",
         "skills_title": "Habilidades de Software",
         
-        "footer_text": "© 2026 Ángel García Odiana | Ciência de Dados & Psicologia"
+        "footer_text": "© 2026 Ángel García Odiana | Ciência de Dados & Psicologia",
 
         "exp_1_role": "Pesquisador Principal & CEO",
         "exp_1_date": "Jan 2024 – Presente",
@@ -202,7 +202,7 @@ const translations = {
         "honor_cum": "★ 優等 (Cum Laude)",
         "skills_title": "ソフトウェアスキル",
         
-        "footer_text": "© 2026 アンヘル・ガルシア | データサイエンス & 心理学"
+        "footer_text": "© 2026 アンヘル・ガルシア | データサイエンス & 心理学",
 
         "exp_1_role": "主任研究員 & CEO",
         "exp_1_date": "2024年1月 – 現在",
