@@ -123,11 +123,23 @@ a:hover { text-decoration: underline; }
 
 /* --- CONFIGURACIÓN DEL FONDO INTERACTIVO --- */
 #particles-js {
-  position: fixed; /* Se mantiene fijo al hacer scroll */
-  width: 100%;
-  height: 100%;
+  position: fixed !important; /* Forzamos que se salga del flujo y se pegue a la pantalla */
   top: 0;
   left: 0;
-  z-index: -1; /* CRÍTICO: Envía el gráfico detrás del texto */
-  background-color: var(--bg-dark); /* Mantiene tu color oscuro de base */
+  width: 100%;
+  height: 100%;
+  z-index: -10; /* Lo enviamos al fondo absoluto (detrás del texto) */
+  background-color: var(--bg-dark); /* El color de fondo va aquí */
+  pointer-events: auto; /* Permite que el mouse interactúe con las partículas */
+}
+
+/* Hacemos transparentes los contenedores para ver las partículas a través de ellos */
+body, .main-content, .container {
+  background-color: transparent !important; /* CRÍTICO: Si tienen color, taparán las partículas */
+}
+
+/* El Canvas generado por la librería debe llenar el div */
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
 }
