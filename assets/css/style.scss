@@ -63,12 +63,55 @@ h1 {
     padding: 0 20px;
 }
 
-.nav-logo {
+/*.nav-logo {
     font-family: 'JetBrains Mono', monospace;
     font-weight: 700;
     color: #fff;
     font-size: 1.5rem;
     text-decoration: none;
+}*/
+
+/* --- LOGO PERSONALIZADO (IMAGEN + TEXTO) --- */
+
+.nav-brand-stack {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center;    /* Centra imagen y texto */
+    justify-content: center;
+    text-decoration: none;
+    line-height: 1;         /* Reduce el espacio entre líneas */
+    margin-right: 20px;     /* Espacio para separar del menú */
+}
+
+.brand-img {
+    width: 32px;            /* Tamaño ajustado para navbar */
+    height: auto;
+    margin-bottom: 4px;     /* Pequeño espacio entre imagen y letras */
+    filter: drop-shadow(0 0 5px rgba(88, 166, 255, 0.4)); /* Brillo sutil acorde al tema */
+    transition: transform 0.3s ease;
+}
+
+.brand-text {
+    font-family: 'JetBrains Mono', monospace; /* Fuente técnica */
+    font-weight: 800;       /* Extra negrita */
+    font-size: 0.85rem;     /* Tamaño pequeño pero legible */
+    color: #fff;
+    letter-spacing: 1px;    /* Espaciado entre letras */
+    text-transform: uppercase;
+}
+
+/* Efecto Hover */
+.nav-brand-stack:hover .brand-img {
+    transform: scale(1.1); /* La imagen crece ligeramente */
+}
+
+.nav-brand-stack:hover .brand-text {
+    color: var(--accent);  /* Las letras se ponen azules */
+}
+
+/* Ajuste necesario para la barra de navegación */
+.navbar {
+    padding: 0.5rem 0; /* Reducimos un poco el padding vertical para que quepa el logo alto */
 }
 
 .nav-links a {
