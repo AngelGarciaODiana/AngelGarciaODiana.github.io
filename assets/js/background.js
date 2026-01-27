@@ -18,11 +18,11 @@ particlesJS("particles-js", {
       "random": false,
     },
     "size": {
-      "value": 5,
+      "value": 4,
       "random": true,
       "anim": {
         "enable": true,
-        "speed": 40,
+        "speed": 10,
         "size_min": 0.1,
         "sync": false
         }
