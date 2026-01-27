@@ -30,7 +30,7 @@ layout: default
             I am the <strong>CEO</strong> of <strong style="color: var(--accent);">PsiNet LAB</strong> and a research professor at <strong>César Vallejo University</strong> (Perú). 
         </p>
         <p>
-            I hold a Master's Degree in University Teaching Research with a specialization in <strong>Computer Science</strong>. My scientific approach integrates <strong>Peace Psychology</strong>, <strong>Advanced Quantitative Methods</strong>, and <strong>Data Science</strong> (R, Python, Julia, C#, SQL) to model and understand the complexity of human behavior and social dynamics.
+            I hold a Master's Degree in University Teaching Research with a specialization in <strong>Computer Science</strong>. My scientific approach integrates <strong>Peace Psychology</strong>, <strong>Advanced Quantitative Methods</strong>, and <strong>Data Science</strong> (R, Python, Q#, Julia, C#, SQL) to model and understand the complexity of human behavior and social dynamics.
         </p>
         <p>
             Currently, I lead research on psychometric network analysis and the impact of psychosocial factors on public mental health.
@@ -80,10 +80,11 @@ layout: default
         <div style="margin-top: 30px;">
              <h3>Software Skills</h3>
              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
-                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">R (Advanced)</span>
-                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">Python (Advanced)</span>
-                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">MATLAB (Advanced)</span>
-                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">C# (Advanced)</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">R</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">Python</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">Q#</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">MATLAB</span>
+                <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">C#</span>
                 <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">SQL</span>
                 <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">Julia</span>
              </div>
