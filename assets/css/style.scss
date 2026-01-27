@@ -1,0 +1,85 @@
+---
+---
+
+/* Importamos el tema base para mantener la estructura */
+@import "{{ site.theme }}";
+
+/* --- VARIABLES DE DISEÑO FUTURISTA / DARK ACADEMIA --- */
+:root {
+  /* Fondo: Gris profundo con matiz azulado (No negro puro) */
+  --bg-color: #1a1c23; 
+  
+  /* Contenedor principal: Un tono ligeramente más claro para dar profundidad */
+  --container-bg: #21252b;
+  
+  /* Texto: Blanco hueso para lectura cómoda */
+  --text-color: #abb2bf;
+  
+  /* Acentos: Cian eléctrico y Pastel (Estilo Data Science) */
+  --accent-color: #56b6c2; 
+  --link-color: #61afef;
+  --header-color: #e5c07b; /* Dorado pálido sobrio */
+}
+
+/* --- APLICACIÓN DE ESTILOS --- */
+
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  line-height: 1.6;
+}
+
+/* Estilo del contenedor principal (efecto tarjeta) */
+.wrapper {
+  background-color: var(--container-bg);
+  padding: 40px;
+  border-radius: 12px; /* Bordes redondeados modernos */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Sombra elegante */
+  max-width: 900px; /* Ancho de lectura optimizado */
+  margin-top: 50px;
+}
+
+/* Encabezados modernos */
+h1, h2, h3, h4, h5, h6 {
+  color: #eceff4 !important;
+  font-weight: 700;
+  letter-spacing: -0.5px; /* Kerning moderno */
+  margin-top: 1.5em;
+}
+
+h1 {
+  background: linear-gradient(90deg, #61afef, #c678dd); /* Degradado sutil futurista */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5em;
+}
+
+/* Enlaces y navegación */
+a {
+  color: var(--link-color) !important;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--accent-color) !important;
+  text-decoration: underline;
+}
+
+/* Bloques de código (para R y Data Science) */
+pre, code {
+  background-color: #282c34 !important; /* Fondo clásico de editor de código */
+  color: #98c379 !important; /* Verde terminal */
+  border-radius: 6px;
+  border: 1px solid #3e4451;
+  font-family: 'Fira Code', 'Consolas', monospace; /* Tipografía monoespaciada */
+}
+
+blockquote {
+  border-left: 4px solid var(--accent-color) !important;
+  color: #9caab8 !important;
+  font-style: italic;
+  background: rgba(86, 182, 194, 0.1);
+  padding: 15px;
+}
