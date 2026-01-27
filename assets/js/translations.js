@@ -1,5 +1,6 @@
 const translations = {
     "es": {
+        // --- NAVEGACIÓN ---
         "nav_about": "Sobre Mí",
         "nav_exp": "Experiencia",
         "nav_papers": "Publicaciones",
@@ -8,6 +9,7 @@ const translations = {
         "nav_blog": "Blog",
         "nav_contact": "Contacto",
         
+        // --- PERFIL ---
         "role_1": "CEO | PsiNet LAB",
         "role_2": "Profesor | UCV",
         "role_3": "Científico de Datos",
@@ -27,6 +29,12 @@ const translations = {
         "edu_phd": "PhD, Salud Pública (En curso)",
         "edu_msc": "MSc, Docencia Universitaria",
         "edu_bsc": "Lic., Psicología",
+        
+        // --- ELEMENTOS FALTANTES AÑADIDOS ---
+        "univ_name": "Universidad César Vallejo",
+        "honor_magna": "★ Magna Cum Laude",
+        "honor_cum": "★ Cum Laude",
+        "skills_title": "Habilidades de Software",
         
         "footer_text": "© 2026 Ángel García Odiana | Ciencia de Datos & Psicología"
     },
@@ -59,6 +67,11 @@ const translations = {
         "edu_msc": "MSc, University Education",
         "edu_bsc": "BSc, Psychology",
         
+        "univ_name": "César Vallejo University",
+        "honor_magna": "★ Magna Cum Laude",
+        "honor_cum": "★ Cum Laude",
+        "skills_title": "Software Skills",
+        
         "footer_text": "© 2026 Ángel García Odiana | Data Science & Psychology"
     },
     "pt": {
@@ -90,6 +103,11 @@ const translations = {
         "edu_msc": "MSc, Ensino Universitário",
         "edu_bsc": "Lic., Psicologia",
         
+        "univ_name": "Universidade César Vallejo",
+        "honor_magna": "★ Magna Cum Laude",
+        "honor_cum": "★ Cum Laude",
+        "skills_title": "Habilidades de Software",
+        
         "footer_text": "© 2026 Ángel García Odiana | Ciência de Dados & Psicologia"
     },
     "ja": {
@@ -120,6 +138,11 @@ const translations = {
         "edu_phd": "公衆衛生学博士（在学中）",
         "edu_msc": "修士（大学教育）",
         "edu_bsc": "学士（心理学）",
+        
+        "univ_name": "セサル・バジェホ大学",
+        "honor_magna": "★ 最優等 (Magna Cum Laude)",
+        "honor_cum": "★ 優等 (Cum Laude)",
+        "skills_title": "ソフトウェアスキル",
         
         "footer_text": "© 2026 アンヘル・ガルシア | データサイエンス & 心理学"
     }
