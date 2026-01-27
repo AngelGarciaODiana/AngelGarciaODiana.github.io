@@ -54,7 +54,7 @@ layout: default
                         <i class="fas fa-user-graduate"></i>
                         <div>
                             <strong data-i18n="edu_phd">PhD, Public Health (En curso)</strong><br>
-                            <small>Universidad César Vallejo</small>
+                            <small data-i18n="univ_name">Universidad César Vallejo</small>
                         </div>
                     </li>
                     <li>
@@ -62,7 +62,7 @@ layout: default
                         <div>
                             <strong data-i18n="edu_msc">MSc, University Education</strong><br>
                             <small>Universidad César Vallejo (2024)</small><br>
-                            <small style="color: var(--accent);">★ Magna Cum Laude</small>
+                            <small style="color: var(--accent);" data-i18n="honor_magna">★ Magna Cum Laude</small>
                         </div>
                     </li>
                     <li>
@@ -70,7 +70,7 @@ layout: default
                         <div>
                             <strong data-i18n="edu_bsc">BSc, Psychology</strong><br>
                             <small>Universidad César Vallejo (2021)</small><br>
-                            <small style="color: var(--text-main); opacity: 0.8;">★ Cum Laude</small>
+                            <small style="color: var(--text-main); opacity: 0.8;" data-i18n="honor_cum">★ Cum Laude</small>
                         </div>
                     </li>
                 </ul>
@@ -78,7 +78,7 @@ layout: default
         </div>
         
         <div style="margin-top: 30px;">
-             <h3>Software Skills</h3>
+             <h3 data-i18n="skills_title">Software Skills</h3>
              <div style="display: flex; gap: 10px; flex-wrap: wrap;">
                 <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">R</span>
                 <span style="background: #1a1e24; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; border: 1px solid #30363d;">Python</span>
