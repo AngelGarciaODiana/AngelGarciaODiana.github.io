@@ -4,6 +4,7 @@ const translations = {
         "nav_about": "Sobre Mí",
         "nav_exp": "Experiencia",
         "nav_papers": "Publicaciones",
+        "nav_projects": "Proyectos",
         "nav_soft": "Software",
         "nav_talks": "Charlas",
         "nav_blog": "Blog",
@@ -61,11 +62,20 @@ const translations = {
         // --- PAPERS ---
         "pub_main_author": "Autor Principal",
         "pub_co_author": "Coautoría",
+
+        // --- PROJECTS ---
+        "proj_1_title": "Adaptación Cultural y Análisis de Redes",
+        "proj_1_desc": "Adaptación de la escala PANAS al Quechua Chanka utilizando SEM y Análisis de Redes Psicométricas.",
+        "proj_2_title": "Miedo al Dengue y Salud Mental",
+        "proj_2_desc": "Estudio estructural y de redes analizando el impacto del miedo y la preocupación por el Dengue en la salud mental pública.",
+        "proj_3_title": "Humanizador IA Turnitin",
+        "proj_3_desc": "Proyecto experimental enfocado en procesamiento de texto y patrones lingüísticos para analizar umbrales de detección de IA.",
     },
     "en": {
         "nav_about": "About",
         "nav_exp": "Experience",
         "nav_papers": "Papers",
+        "nav_projects": "Projects",
         "nav_soft": "Software",
         "nav_talks": "Talks",
         "nav_blog": "Blog",
@@ -119,11 +129,19 @@ const translations = {
 
         "pub_main_author": "Main Author",
         "pub_co_author": "Co-Author",
+
+        "proj_1_title": "Cultural Adaptation & Network Analysis",
+        "proj_1_desc": "Adaptation of the Positive and Negative Affect Schedule (PANAS) to Chanka Quechua speakers using SEM and Psychometric Network Analysis.",
+        "proj_2_title": "Dengue Fear & Mental Health",
+        "proj_2_desc": "A structural and network study analyzing the impact of fear and worry about Dengue on public mental health metrics.",
+        "proj_3_title": "Turnitin AI Humanizer",
+        "proj_3_desc": "Experimental project focused on text processing and linguistic patterns to analyze AI detection thresholds in academic writing.",
     },
     "pt": {
         "nav_about": "Sobre Mim",
         "nav_exp": "Experiência",
         "nav_papers": "Publicações",
+        "nav_projects": "Projetos",
         "nav_soft": "Software",
         "nav_talks": "Palestras",
         "nav_blog": "Blog",
@@ -177,11 +195,19 @@ const translations = {
 
         "pub_main_author": "Autor Principal",
         "pub_co_author": "Coautoria",
+
+        "proj_1_title": "Adaptação Cultural e Análise de Redes",
+        "proj_1_desc": "Adaptação da escala PANAS para falantes de Quechua Chanka usando SEM e Análise de Redes Psicométricas.",
+        "proj_2_title": "Medo da Dengue e Saúde Mental",
+        "proj_2_desc": "Estudo estrutural e de rede analisando o impacto do medo e da preocupação com a Dengue na saúde mental pública.",
+        "proj_3_title": "Humanizador IA Turnitin",
+        "proj_3_desc": "Projeto experimental focado em processamento de texto e padrões linguísticos para analisar limites de detecção de IA.",
     },
     "ja": {
         "nav_about": "プロフィール",
         "nav_exp": "経歴",
         "nav_papers": "論文",
+        "nav_projects": "プロジェクト",
         "nav_soft": "ソフトウェア",
         "nav_talks": "講演",
         "nav_blog": "ブログ",
@@ -235,6 +261,13 @@ const translations = {
 
         "pub_main_author": "筆頭著者",
         "pub_co_author": "共著者",
+
+        "proj_1_title": "文化適応とネットワーク分析",
+        "proj_1_desc": "SEMおよび心理測定ネットワーク分析を使用した、チャンカ・ケチュア語話者へのPANAS尺度の適応。",
+        "proj_2_title": "デング熱の恐怖とメンタルヘルス",
+        "proj_2_desc": "デング熱に対する恐怖と心配が公衆衛生に与える影響を分析する構造的およびネットワーク的研究。",
+        "proj_3_title": "Turnitin AI ヒューマナイザー",
+        "proj_3_desc": "学術論文におけるAI検出の閾値を分析するための、テキスト処理と言語パターンに焦点を当てた実験プロジェクト。",
     }
 };
 
