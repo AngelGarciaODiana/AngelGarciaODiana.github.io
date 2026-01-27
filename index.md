@@ -57,19 +57,25 @@ layout: default
                             <small data-i18n="univ_name">Universidad César Vallejo</small>
                         </div>
                     </li>
+                    
                     <li>
                         <i class="fas fa-user-graduate"></i>
                         <div>
                             <strong data-i18n="edu_msc">MSc, University Education</strong><br>
-                            <small>Universidad César Vallejo (2024)</small><br>
+                            <small>
+                                <span data-i18n="univ_name">Universidad César Vallejo</span> (2024)
+                            </small><br>
                             <small style="color: var(--accent);" data-i18n="honor_magna">★ Magna Cum Laude</small>
                         </div>
                     </li>
+                    
                     <li>
                         <i class="fas fa-university"></i>
                         <div>
                             <strong data-i18n="edu_bsc">BSc, Psychology</strong><br>
-                            <small>Universidad César Vallejo (2021)</small><br>
+                            <small>
+                                <span data-i18n="univ_name">Universidad César Vallejo</span> (2021)
+                            </small><br>
                             <small style="color: var(--text-main); opacity: 0.8;" data-i18n="honor_cum">★ Cum Laude</small>
                         </div>
                     </li>
