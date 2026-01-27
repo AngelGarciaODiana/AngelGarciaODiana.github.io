@@ -5,7 +5,7 @@ layout: default
 <div class="profile-container">
     
     <div class="profile-sidebar">
-        <img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Ángel García" class="profile-pic">
+        <img src="{{ site.github.owner.avatar_url }}" alt="{{ site.title }}" class="profile-pic">
         
         <h1 class="profile-name">Angel García O'Diana</h1>
         <p class="profile-role">Investigador en Psicología de la Paz <br>& Data Scientist</p>
