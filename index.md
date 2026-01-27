@@ -7,14 +7,14 @@ layout: default
     <div class="profile-sidebar">
         <img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Ángel García" class="profile-pic">
         
-        <h1 class="profile-name">Ángel García Odiana</h1>
+        <h1 class="profile-name">Angel García O'Diana</h1>
         <p class="profile-role">Investigador en Psicología de la Paz <br>& Data Scientist</p>
         
         <div class="social-icons">
-            <a href="mailto:tu-email@ejemplo.com"><i class="fas fa-envelope"></i></a>
+            <a href="mailto:agarciao10@ucvvirtual.edu.pe"><i class="fas fa-envelope"></i></a>
             <a href="https://github.com/angelgarciaodiana"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fas fa-graduation-cap"></i></a>
+            <a href="https://linkedin.com/in/agarciaodiana"><i class="fab fa-linkedin"></i></a>
+            <a href="https://scholar.google.com/citations?user=41nNHwYAAAAJ&hl"><i class="fas fa-graduation-cap"></i></a>
         </div>
     </div>
 
@@ -45,15 +45,15 @@ layout: default
                     <li>
                         <i class="fas fa-user-graduate"></i>
                         <div>
-                            <strong>PhD, Psicología (En curso)</strong><br>
-                            <small>Universidad Nacional Mayor de San Marcos</small>
+                            <strong>PhD, Salud Pública (En curso)</strong><br>
+                            <small>Universidad César Vallejo</small>
                         </div>
                     </li>
                     <li>
                         <i class="fas fa-university"></i>
                         <div>
                             <strong>Lic., Psicología</strong><br>
-                            <small>Universidad Nacional Mayor de San Marcos</small>
+                            <small>Universidad César Vallejo</small>
                         </div>
                     </li>
                 </ul>
