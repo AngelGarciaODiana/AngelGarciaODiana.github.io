@@ -56,7 +56,7 @@ const translations = {
 
         "exp_4_role": "Investigador Principal",
         "exp_4_date": "Feb 2021 – Presente",
-        "exp_4_desc1": "Realización de investigaciones de alto impacto en psicología de la paz."
+        "exp_4_desc1": "Realización de investigaciones de alto impacto en psicología de la paz.",
     },
     "en": {
         "nav_about": "About",
@@ -111,7 +111,7 @@ const translations = {
 
         "exp_4_role": "Principal Investigator",
         "exp_4_date": "Feb 2021 – Present",
-        "exp_4_desc1": "Conducting high-impact research on peace psychology."
+        "exp_4_desc1": "Conducting high-impact research on peace psychology.",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -166,7 +166,7 @@ const translations = {
 
         "exp_4_role": "Pesquisador Principal",
         "exp_4_date": "Fev 2021 – Presente",
-        "exp_4_desc1": "Realização de pesquisas de alto impacto em psicologia da paz."
+        "exp_4_desc1": "Realização de pesquisas de alto impacto em psicologia da paz.",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -221,7 +221,7 @@ const translations = {
 
         "exp_4_role": "主任研究員",
         "exp_4_date": "2021年2月 – 現在",
-        "exp_4_desc1": "平和心理学に関するインパクトの高い研究の実施。"
+        "exp_4_desc1": "平和心理学に関するインパクトの高い研究の実施。",
     }
 };
 
