@@ -64,12 +64,23 @@ const translations = {
         "pub_co_author": "Coautoría",
 
         // --- PROJECTS ---
-        "proj_1_title": "Adaptación Cultural y Análisis de Redes",
-        "proj_1_desc": "Adaptación de la escala PANAS al Quechua Chanka utilizando SEM y Análisis de Redes Psicométricas.",
-        "proj_2_title": "Miedo al Dengue y Salud Mental",
-        "proj_2_desc": "Estudio estructural y de redes analizando el impacto del miedo y la preocupación por el Dengue en la salud mental pública.",
-        "proj_3_title": "Humanizador IA Turnitin",
-        "proj_3_desc": "Proyecto experimental enfocado en procesamiento de texto y patrones lingüísticos para analizar umbrales de detección de IA.",
+        "proj_3750_title": "Análisis de Redes y Geoespacial de la Satisfacción Vital",
+        "proj_3750_desc": "Exploración de factores individuales y contextuales en 2240 adolescentes peruanos utilizando redes psicológicas y correlaciones geoespaciales en 8 regiones.",
+        
+        "proj_3749_title": "Adaptación Cultural al Quechua Chanka (PANAS)",
+        "proj_3749_desc": "Validación de cuestionarios de afecto emocional para quechuhablantes utilizando SEM y Análisis de Redes Psicométricas.",
+        
+        "proj_2683_title": "Miedo al Dengue y Salud Mental",
+        "proj_2683_desc": "Estudio psicométrico y estructural que analiza el impacto del miedo y la preocupación por el Dengue como predictores de la salud mental.",
+        
+        "proj_3900_title": "Redes de Motivación de Servicio Público",
+        "proj_3900_desc": "Examen de la influencia de la Satisfacción Laboral y la Intención de Rotación mediante una perspectiva de redes y mediación de Capacidad Dinámica.",
+        
+        "proj_3751_title": "Validación Transcultural del AAQ-II",
+        "proj_3751_desc": "Perspectiva de SEM y Análisis de Redes validando el Cuestionario de Aceptación y Acción en 5 países (Perú, EE. UU., Hungría, Bélgica, México).",
+        
+        "proj_dtdd_title": "Tríada Oscura Nacional (DTDD-P)",
+        "proj_dtdd_desc": "Análisis avanzado de los rasgos de la Tríada Oscura utilizando Análisis Multiverso, Árboles de Expansión Mínima (MST) y Análisis Geoespacial.",
     },
     "en": {
         "nav_about": "About",
@@ -130,12 +141,23 @@ const translations = {
         "pub_main_author": "Main Author",
         "pub_co_author": "Co-Author",
 
-        "proj_1_title": "Cultural Adaptation & Network Analysis",
-        "proj_1_desc": "Adaptation of the Positive and Negative Affect Schedule (PANAS) to Chanka Quechua speakers using SEM and Psychometric Network Analysis.",
-        "proj_2_title": "Dengue Fear & Mental Health",
-        "proj_2_desc": "A structural and network study analyzing the impact of fear and worry about Dengue on public mental health metrics.",
-        "proj_3_title": "Turnitin AI Humanizer",
-        "proj_3_desc": "Experimental project focused on text processing and linguistic patterns to analyze AI detection thresholds in academic writing.",
+        "proj_3750_title": "Network & Geospatial Analysis of Life Satisfaction",
+        "proj_3750_desc": "Exploring individual and contextual factors in 2240 Peruvian adolescents using psychological networks and geospatial correlations in 8 regions.",
+        
+        "proj_3749_title": "Cultural Adaptation to Chanka Quechua (PANAS)",
+        "proj_3749_desc": "Validation of emotional affect questionnaires for Chanka Quechua speakers using SEM and Psychometric Network Analysis.",
+        
+        "proj_2683_title": "Dengue Fear & Mental Health",
+        "proj_2683_desc": "A psychometric and structural study analyzing the impact of fear and worry about Dengue as predictors of mental health.",
+        
+        "proj_3900_title": "Public Service Motivation Networks",
+        "proj_3900_desc": "Examining the influence of Job Satisfaction and Turnover Intention through a Network Perspective and Dynamic Capability mediation.",
+        
+        "proj_3751_title": "Cross-Cultural Validation of AAQ-II",
+        "proj_3751_desc": "SEM and Network Analysis perspective validating the Acceptance and Action Questionnaire across 5 countries (Peru, USA, Hungary, Belgium, Mexico).",
+        
+        "proj_dtdd_title": "National Dark Triad (DTDD-P)",
+        "proj_dtdd_desc": "Advanced analysis of the Dark Triad traits using Multiverse Analysis, Minimum Spanning Trees (MST), and Geospatial Analysis.",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -196,12 +218,23 @@ const translations = {
         "pub_main_author": "Autor Principal",
         "pub_co_author": "Coautoria",
 
-        "proj_1_title": "Adaptação Cultural e Análise de Redes",
-        "proj_1_desc": "Adaptação da escala PANAS para falantes de Quechua Chanka usando SEM e Análise de Redes Psicométricas.",
-        "proj_2_title": "Medo da Dengue e Saúde Mental",
-        "proj_2_desc": "Estudo estrutural e de rede analisando o impacto do medo e da preocupação com a Dengue na saúde mental pública.",
-        "proj_3_title": "Humanizador IA Turnitin",
-        "proj_3_desc": "Projeto experimental focado em processamento de texto e padrões linguísticos para analisar limites de detecção de IA.",
+        "proj_3750_title": "Análise de Redes e Geoespacial da Satisfação com a Vida",
+        "proj_3750_desc": "Exploração de fatores individuais e contextuais em 2240 adolescentes peruanos usando redes psicológicas e correlações geoespaciais.",
+        
+        "proj_3749_title": "Adaptação Cultural ao Quechua Chanka (PANAS)",
+        "proj_3749_desc": "Validação de questionários de afeto emocional para falantes de Quechua Chanka usando SEM e Análise de Redes Psicométricas.",
+        
+        "proj_2683_title": "Medo da Dengue e Saúde Mental",
+        "proj_2683_desc": "Estudo psicométrico e estrutural analisando o impacto do medo e da preocupação com a Dengue como preditores de saúde mental.",
+        
+        "proj_3900_title": "Redes de Motivação de Serviço Público",
+        "proj_3900_desc": "Exame da influência da Satisfação no Trabalho e Intenção de Rotatividade através de uma Perspectiva de Rede e mediação de Capacidade Dinâmica.",
+        
+        "proj_3751_title": "Validação Transcultural do AAQ-II",
+        "proj_3751_desc": "Perspectiva de SEM e Análise de Redes validando o Questionário de Aceitação e Ação em 5 países (Peru, EUA, Hungria, Bélgica, México).",
+        
+        "proj_dtdd_title": "Tríade Obscura Nacional (DTDD-P)",
+        "proj_dtdd_desc": "Análise avançada dos traços da Tríade Obscura usando Análise Multiverso, Árvores de Abrangência Mínima (MST) e Análise Geoespacial.",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -262,12 +295,23 @@ const translations = {
         "pub_main_author": "筆頭著者",
         "pub_co_author": "共著者",
 
-        "proj_1_title": "文化適応とネットワーク分析",
-        "proj_1_desc": "SEMおよび心理測定ネットワーク分析を使用した、チャンカ・ケチュア語話者へのPANAS尺度の適応。",
-        "proj_2_title": "デング熱の恐怖とメンタルヘルス",
-        "proj_2_desc": "デング熱に対する恐怖と心配が公衆衛生に与える影響を分析する構造的およびネットワーク的研究。",
-        "proj_3_title": "Turnitin AI ヒューマナイザー",
-        "proj_3_desc": "学術論文におけるAI検出の閾値を分析するための、テキスト処理と言語パターンに焦点を当てた実験プロジェクト。",
+        "proj_3750_title": "生活満足度のネットワークおよび地理空間分析",
+        "proj_3750_desc": "心理学的ネットワークと地理空間相関を用いて、ペルーの8地域の青少年2240人における個人的および文脈的要因を調査。",
+        
+        "proj_3749_title": "チャンカ・ケチュア語への文化適応 (PANAS)",
+        "proj_3749_desc": "SEMおよび心理測定ネットワーク分析を使用した、チャンカ・ケチュア語話者向けの感情的影響質問票の妥当性確認。",
+        
+        "proj_2683_title": "デング熱の恐怖とメンタルヘルス",
+        "proj_2683_desc": "メンタルヘルスの予測因子としてのデング熱に対する恐怖と心配の影響を分析する心理測定および構造的研究。",
+        
+        "proj_3900_title": "公共サービス動機付けネットワーク",
+        "proj_3900_desc": "ネットワークの視点と動的能力の媒介を通じて、職務満足度と離職意図の影響を調査。",
+        
+        "proj_3751_title": "AAQ-IIの異文化間妥当性確認",
+        "proj_3751_desc": "SEMおよびネットワーク分析の視点から、5か国（ペルー、米国、ハンガリー、ベルギー、メキシコ）でAAQ-IIを検証。",
+        
+        "proj_dtdd_title": "全国ダークトライアド (DTDD-P)",
+        "proj_dtdd_desc": "マルチバース分析、最小全域木（MST）、および地理空間分析を使用したダークトライアド特性の高度な分析。",
     }
 };
 
