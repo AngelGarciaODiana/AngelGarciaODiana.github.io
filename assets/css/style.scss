@@ -1,85 +1,122 @@
 ---
 ---
 
-/* Importamos el tema base para mantener la estructura */
-@import "{{ site.theme }}";
-
-/* --- VARIABLES DE DISEÑO FUTURISTA / DARK ACADEMIA --- */
+/* --- PALETA DE COLORES FUTURISTA (MODO OSCURO) --- */
 :root {
-  /* Fondo: Gris profundo con matiz azulado (No negro puro) */
-  --bg-color: #1a1c23; 
-  
-  /* Contenedor principal: Un tono ligeramente más claro para dar profundidad */
-  --container-bg: #21252b;
-  
-  /* Texto: Blanco hueso para lectura cómoda */
-  --text-color: #abb2bf;
-  
-  /* Acentos: Cian eléctrico y Pastel (Estilo Data Science) */
-  --accent-color: #56b6c2; 
-  --link-color: #61afef;
-  --header-color: #e5c07b; /* Dorado pálido sobrio */
+  --bg-dark: #0f1115;       /* Fondo casi negro, muy profundo */
+  --bg-panel: #161b22;      /* Paneles ligeramente más claros */
+  --text-main: #c9d1d9;     /* Texto gris claro leíble */
+  --text-bold: #ffffff;     /* Negritas BLANCAS (Solución al problema) */
+  --accent: #58a6ff;        /* Azul ciencia */
+  --accent-glow: rgba(88, 166, 255, 0.15);
+  --secondary: #238636;     /* Verde datos/éxito */
+  --border: #30363d;
 }
 
-/* --- APLICACIÓN DE ESTILOS --- */
+/* --- RESET Y BASE --- */
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
-  background-color: var(--bg-color) !important;
-  color: var(--text-color) !important;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
-  line-height: 1.6;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+  line-height: 1.8; /* Más espacio entre líneas */
+  font-size: 16px;
 }
 
-/* Estilo del contenedor principal (efecto tarjeta) */
-.wrapper {
-  background-color: var(--container-bg);
-  padding: 40px;
-  border-radius: 12px; /* Bordes redondeados modernos */
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3); /* Sombra elegante */
-  max-width: 900px; /* Ancho de lectura optimizado */
-  margin-top: 50px;
-}
-
-/* Encabezados modernos */
-h1, h2, h3, h4, h5, h6 {
-  color: #eceff4 !important;
+/* --- SOLUCIÓN ERROR DE NEGRITAS --- */
+strong, b {
+  color: var(--accent); /* Ahora las negritas serán azules brillante */
   font-weight: 700;
-  letter-spacing: -0.5px; /* Kerning moderno */
-  margin-top: 1.5em;
 }
 
-h1 {
-  background: linear-gradient(90deg, #61afef, #c678dd); /* Degradado sutil futurista */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 0.5em;
+h1, h2, h3 {
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-/* Enlaces y navegación */
-a {
-  color: var(--link-color) !important;
-  text-decoration: none;
-  transition: all 0.3s ease;
+h1 { 
+    font-size: 2.5rem; 
+    background: linear-gradient(90deg, #58a6ff, #bc8cff); /* Gradiente moderno */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-a:hover {
-  color: var(--accent-color) !important;
-  text-decoration: underline;
+/* --- MENÚ DE NAVEGACIÓN --- */
+.navbar {
+    background: rgba(15, 17, 21, 0.85); /* Efecto vidrio */
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0;
 }
 
-/* Bloques de código (para R y Data Science) */
+.nav-container {
+    max-width: 1100px; /* Ancho amplio */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: var(--text-main);
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+/* --- CONTENEDOR PRINCIPAL (MÁS ANCHO) --- */
+.main-content {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1000px; /* Mucho más ancho que antes (era 600-800px) */
+    margin: 0 auto;
+}
+
+/* --- TARJETAS Y CÓDIGO --- */
 pre, code {
-  background-color: #282c34 !important; /* Fondo clásico de editor de código */
-  color: #98c379 !important; /* Verde terminal */
-  border-radius: 6px;
-  border: 1px solid #3e4451;
-  font-family: 'Fira Code', 'Consolas', monospace; /* Tipografía monoespaciada */
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #1a1e24;
+    border-radius: 6px;
+    font-size: 0.9em;
 }
 
-blockquote {
-  border-left: 4px solid var(--accent-color) !important;
-  color: #9caab8 !important;
-  font-style: italic;
-  background: rgba(86, 182, 194, 0.1);
-  padding: 15px;
+/* Estilo para listas y elementos */
+ul { margin-left: 20px; }
+li { margin-bottom: 10px; }
+
+/* Links en el texto */
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    color: #484f58;
+    font-size: 0.8rem;
+    border-top: 1px solid var(--border);
+    margin-top: 60px;
 }
