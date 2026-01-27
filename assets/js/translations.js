@@ -37,6 +37,26 @@ const translations = {
         "skills_title": "Habilidades de Software",
         
         "footer_text": "© 2026 Ángel García Odiana | Ciencia de Datos & Psicología"
+
+        // --- EXPERIENCIA ---
+        "exp_1_role": "Investigador Principal & CEO",
+        "exp_1_date": "Ene 2024 – Presente",
+        "exp_1_desc1": "Liderando investigación avanzada en redes psicométricas y modelado del comportamiento humano.",
+        "exp_1_desc2": "Gestión de equipos de investigadores y científicos de datos.",
+        
+        "exp_2_role": "Profesor",
+        "exp_2_date": "Abr 2025 – Presente",
+        "exp_2_desc1": "Enseñanza de métodos cuantitativos avanzados y metodología de investigación.",
+        "exp_2_desc2": "Supervisión de proyectos de tesis enfocados en psicología de la salud.",
+        
+        "exp_3_role": "Mentor",
+        "exp_3_date": "Ago 2023 – Presente",
+        "exp_3_desc1": "Miembro del Colectivo Quant Family.",
+        "exp_3_desc2": "Mentoría de estudiantes en psicología cuantitativa y análisis de datos.",
+
+        "exp_4_role": "Investigador Principal",
+        "exp_4_date": "Feb 2021 – Presente",
+        "exp_4_desc1": "Realización de investigaciones de alto impacto en psicología de la paz.",
     },
     "en": {
         "nav_about": "About",
@@ -73,6 +93,25 @@ const translations = {
         "skills_title": "Software Skills",
         
         "footer_text": "© 2026 Ángel García Odiana | Data Science & Psychology"
+
+        "exp_1_role": "Principal Investigator & CEO",
+        "exp_1_date": "Jan 2024 – Present",
+        "exp_1_desc1": "Leading advanced research in psychometric networks and human behavior modeling.",
+        "exp_1_desc2": "Managing a team of researchers and data scientists.",
+        
+        "exp_2_role": "Professor",
+        "exp_2_date": "Apr 2025 – Present",
+        "exp_2_desc1": "Teaching advanced quantitative methods and research methodology.",
+        "exp_2_desc2": "Supervising thesis projects focused on health psychology.",
+        
+        "exp_3_role": "Mentor",
+        "exp_3_date": "Aug 2023 – Present",
+        "exp_3_desc1": "Member of the Quant Family Collective.",
+        "exp_3_desc2": "Mentoring students in quantitative psychology and data analysis.",
+
+        "exp_4_role": "Principal Investigator",
+        "exp_4_date": "Feb 2021 – Present",
+        "exp_4_desc1": "Conducting high-impact research on peace psychology.",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -109,6 +148,25 @@ const translations = {
         "skills_title": "Habilidades de Software",
         
         "footer_text": "© 2026 Ángel García Odiana | Ciência de Dados & Psicologia"
+
+        "exp_1_role": "Pesquisador Principal & CEO",
+        "exp_1_date": "Jan 2024 – Presente",
+        "exp_1_desc1": "Liderando pesquisas avançadas em redes psicométricas e modelagem comportamental.",
+        "exp_1_desc2": "Gestão de equipe de pesquisadores e cientistas de dados.",
+        
+        "exp_2_role": "Professor",
+        "exp_2_date": "Abr 2025 – Presente",
+        "exp_2_desc1": "Ensino de métodos quantitativos avançados e metodologia de pesquisa.",
+        "exp_2_desc2": "Supervisão de projetos de tese focados em psicologia da saúde.",
+        
+        "exp_3_role": "Mentor",
+        "exp_3_date": "Ago 2023 – Presente",
+        "exp_3_desc1": "Membro do Coletivo Quant Family.",
+        "exp_3_desc2": "Mentoria de estudantes em psicologia quantitativa e análise de dados.",
+
+        "exp_4_role": "Pesquisador Principal",
+        "exp_4_date": "Fev 2021 – Presente",
+        "exp_4_desc1": "Realização de pesquisas de alto impacto em psicologia da paz.",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -145,6 +203,25 @@ const translations = {
         "skills_title": "ソフトウェアスキル",
         
         "footer_text": "© 2026 アンヘル・ガルシア | データサイエンス & 心理学"
+
+        "exp_1_role": "主任研究員 & CEO",
+        "exp_1_date": "2024年1月 – 現在",
+        "exp_1_desc1": "心理測定ネットワークおよび人間行動モデリングに関する最先端の研究を主導。",
+        "exp_1_desc2": "研究者およびデータサイエンティストのチーム管理。",
+        
+        "exp_2_role": "教授",
+        "exp_2_date": "2025年4月 – 現在",
+        "exp_2_desc1": "高度な定量的手法および研究方法論の指導。",
+        "exp_2_desc2": "健康心理学に焦点を当てた論文プロジェクトの指導。",
+        
+        "exp_3_role": "メンター",
+        "exp_3_date": "2023年8月 – 現在",
+        "exp_3_desc1": "Quant Family Collectiveのメンバー。",
+        "exp_3_desc2": "計量心理学およびデータ分析における学生の指導。",
+
+        "exp_4_role": "主任研究員",
+        "exp_4_date": "2021年2月 – 現在",
+        "exp_4_desc1": "平和心理学に関するインパクトの高い研究の実施。",
     }
 };
 
