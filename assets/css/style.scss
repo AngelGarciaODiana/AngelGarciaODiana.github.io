@@ -143,3 +143,113 @@ body, .main-content, .container {
   display: block;
   vertical-align: bottom;
 }
+
+/* --- DISEÑO DE PERFIL (SPLIT LAYOUT) --- */
+
+.profile-container {
+    display: flex;
+    flex-wrap: wrap; /* Para que se adapte a móviles */
+    gap: 60px;       /* Espacio entre la foto y el texto */
+    margin-top: 40px;
+    align-items: flex-start;
+}
+
+/* Columna Izquierda (Foto y Datos) */
+.profile-sidebar {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Esto hace la foto redonda */
+    object-fit: cover;
+    border: 3px solid var(--accent); /* Borde azul futurista */
+    box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.profile-role {
+    font-size: 1rem;
+    color: var(--text-main);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+/* Iconos Sociales */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #ff6b81; /* Color rosado/rojo como en la imagen de referencia */
+    font-size: 1.8rem;
+    transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #ff4757;
+    text-decoration: none;
+}
+
+/* Columna Derecha (Biografía) */
+.profile-content {
+    flex: 2;
+    min-width: 300px;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #fff;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Grilla para Intereses y Educación */
+.info-grid {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.info-column {
+    flex: 1;
+}
+
+.info-column h3 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Lista limpia sin puntos */
+ul.clean-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.clean-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+ul.clean-list i {
+    color: var(--text-main); /* Iconos pequeños en gris */
+    font-size: 0.9em;
+}
