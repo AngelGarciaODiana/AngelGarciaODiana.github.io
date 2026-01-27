@@ -409,3 +409,75 @@ ul.clean-list i {
     color: var(--text-main);
     font-size: 0.95rem;
 }
+
+/* --- PÁGINA DE PUBLICACIONES (PAPERS) --- */
+
+.pub-section {
+    margin-bottom: 50px;
+}
+
+.pub-category-title {
+    font-size: 1.5rem;
+    color: #fff;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.pub-item {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    border-left: 2px solid transparent; /* Borde invisible por defecto */
+    transition: all 0.2s ease;
+}
+
+.pub-item:hover {
+    border-left: 2px solid var(--accent); /* Se ilumina al pasar el mouse */
+    background: rgba(255, 255, 255, 0.02); /* Fondo sutil */
+}
+
+.pub-text {
+    color: var(--text-main);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Destacar tu nombre */
+.author-highlight {
+    color: #fff;
+    font-weight: 700;
+    border-bottom: 1px dotted var(--accent);
+}
+
+/* Nombre del Journal en itálica */
+.journal-name {
+    font-style: italic;
+    color: #aab2bf;
+}
+
+/* Badges (Botones de enlace) */
+.pub-badges {
+    margin-top: 8px;
+    display: flex;
+    gap: 10px;
+}
+
+.badge-link {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 3px 8px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    color: var(--accent) !important;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.badge-link:hover {
+    background-color: var(--accent);
+    color: #fff !important;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
