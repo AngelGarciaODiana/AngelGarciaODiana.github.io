@@ -28,6 +28,12 @@
                 <a href="/talks">Talks</a>
                 <a href="/blog">Blog</a>
                 <a href="/contact">Contact</a>
+                <div class="lang-switcher">
+    <span onclick="changeLanguage('es')" class="lang-btn">ES</span>
+    <span onclick="changeLanguage('en')" class="lang-btn">EN</span>
+    <span onclick="changeLanguage('pt')" class="lang-btn">PT(BR)</span>
+    <span onclick="changeLanguage('ja')" class="lang-btn">JA</span>
+</div>
             </div>
         </div>
     </nav>
@@ -44,6 +50,7 @@
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="{{ '/assets/js/background.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/translations.js' | relative_url }}"></script>
 
 </body>
 </html>
