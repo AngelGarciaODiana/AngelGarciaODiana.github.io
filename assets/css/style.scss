@@ -296,3 +296,24 @@ ul.clean-list i {
     color: var(--text-main); /* Iconos pequeños en gris */
     font-size: 0.9em;
 }
+
+/* --- SELECTOR DE IDIOMA --- */
+.lang-switcher {
+    margin-left: 20px;
+    display: inline-flex;
+    gap: 10px;
+    border-left: 1px solid var(--border);
+    padding-left: 20px;
+}
+
+.lang-btn {
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: var(--text-main);
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.lang-btn:hover, .lang-btn.active {
+    color: var(--accent); /* Se iluminan en azul al seleccionar */
+}
