@@ -193,15 +193,15 @@ body, .main-content, .container {
 }
 
 .social-icons a {
-    color: #ff6b81; /* Color rosado/rojo como en la imagen de referencia */
+    color: var(--text-main); /* Reposo: Gris claro elegante */
     font-size: 1.8rem;
-    transition: transform 0.2s;
+    transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
-    transform: scale(1.2);
-    color: #ff4757;
-    text-decoration: none;
+    transform: translateY(-3px) scale(1.1); /* Efecto de levitación */
+    color: var(--accent); /* Hover: Se encienden en Azul Ciencia */
+    text-shadow: 0 0 10px var(--accent-glow); /* Pequeño resplandor neón */
 }
 
 /* Columna Derecha (Biografía) */
