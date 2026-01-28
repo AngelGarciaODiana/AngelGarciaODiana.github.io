@@ -16,7 +16,7 @@ excerpt_pt: "Bem-vindo ao blog oficial. Hoje discutimos a interseção entre red
 excerpt_ja: "公式ブログへようこそ。今日は、複雑なネットワークとメンタルヘルスの交差点について説明します。"
 ---
 
-<div class="lang-block lang-es active">
+<div class="lang-block lang-es active" markdown="1">
 
 ## Bienvenidos a PsiNet LAB
 
@@ -30,7 +30,7 @@ library(qgraph)
 ```
 </div>
 
-<div class="lang-block lang-en">
+<div class="lang-block lang-en" markdown="1">
 
 Welcome to PsiNet LAB
 Traditional psychology often relies on linear models. However, human behavior is a complex system.
@@ -44,7 +44,7 @@ library(qgraph)
 ```
 </div>
 
-<div class="lang-block lang-pt">
+<div class="lang-block lang-pt" markdown="1">
 
 Bem-vindo ao PsiNet LAB
 A psicologia tradicional muitas vezes baseia-se em modelos lineares. No entanto, o comportamento humano é um sistema complexo.
@@ -57,7 +57,7 @@ library(qgraph)
 ```
 </div>
 
-<div class="lang-block lang-ja">
+<div class="lang-block lang-ja" markdown="1">
 
 PsiNet LABへようこそ
 従来の心理学はしばしば線形モデルに依存しています。しかし、人間の行動は複雑系です。
