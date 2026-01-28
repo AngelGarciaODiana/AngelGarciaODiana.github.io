@@ -21,7 +21,10 @@ layout: default
             </ul>
             <div class="talk-links">
                 <a href="https://doi.org/10.5281/zenodo.17759530" target="_blank" class="talk-btn btn-zenodo">
-                    <i class="fas fa-file-download"></i> Zenodo
+                    <i class="fas fa-file-download"></i> Zenodo 1
+                </a>
+                <a href="https://doi.org/10.5281/zenodo.17759480" target="_blank" class="talk-btn btn-zenodo">
+                    <i class="fas fa-file-download"></i> Zenodo 2
                 </a>
                 <a href="https://doi.org/10.5281/zenodo.17759480" target="_blank" class="talk-btn btn-youtube">
                     <i class="fab fa-youtube"></i>
@@ -55,6 +58,15 @@ layout: default
                 <li data-i18n="talk_dec24_psi_d1">13/12: Complexity theory applied to psychology.</li>
                 <li data-i18n="talk_dec24_psi_d2">14/12: Space Psychology and Psychiatry.</li>
             </ul>
+            <div class="talk-links">
+                <a href="https://doi.org/10.5281/zenodo.14503580" target="_blank" class="talk-btn btn-zenodo">
+                    <i class="fas fa-file-download"></i> Zenodo
+                </a>
+                <a href="https://youtube.com/playlist?list=PLkIaJDwih0sVUPSkhr0nYdYhN_ss1WRQC&si=E1ywysiWlBjyQDVu" target="_blank" class="talk-btn btn-youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span data-i18n="btn_watch">Watch Playlist</span>
+                </a>
+            </div>
         </div>
 
         <div class="talk-card">
@@ -78,6 +90,11 @@ layout: default
                 <span>Course</span>
             </div>
             <p data-i18n="talk_feb23_desc">Advanced training on conducting meta-analyses using R programming.</p>
+            <div class="talk-links">
+                <a href="https://github.com/AngelGarciaODiana/Taller-Meta-Analisis" target="_blank" class="talk-btn btn-github">
+                    <i class="fab fa-github"></i> Repository / Materials
+                </a>
+            </div>
         </div>
     </div>
 
