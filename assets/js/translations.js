@@ -105,8 +105,14 @@ const translations = {
 
         "btn_watch": "Ver Video",
 
+        "talk_csse_title": "Taller de Contención y Soporte Socioemocional (CSSE)",
+        "talk_type_workshop": "Serie de Talleres",
+        "talk_csse_desc": "En alianza con la Dirección Regional de Educación de Ayacucho (DREA).",
+        "talk_materials": "Materiales Zenodo:",
+        "btn_watch_playlist": "Ver Playlist",
+        "btn_watch_fb": "Ver en Facebook",
+
         // --- CONTACT ---
-        "nav_contact": "Contacto",
         "contact_email": "Correo Electrónico",
         "contact_location": "Ubicación",
         "contact_social": "Redes Sociales",
@@ -215,8 +221,13 @@ const translations = {
 
         "btn_watch": "Watch Video",
 
-        "nav_contact": "Contact",
-        "contact_email": "Email",
+        "talk_csse_title": "Socio-emotional Support & Containment Workshop (CSSE)",
+        "talk_type_workshop": "Workshop Series",
+        "talk_csse_desc": "In alliance with the Regional Directorate of Education of Ayacucho (DREA).",
+        "talk_materials": "Zenodo Materials:",
+        "btn_watch_playlist": "Watch Playlist",
+        "btn_watch_fb": "Facebook Watch",
+
         "contact_location": "Location",
         "contact_social": "Social Networks",
         "contact_msg": "Interested in collaboration, PhD supervision, or just want to say hi? Send me a message.",
@@ -324,7 +335,13 @@ const translations = {
 
         "btn_watch": "Assistir Vídeo",
 
-        "nav_contact": "Contato",
+        "talk_csse_title": "Workshop de Contenção e Suporte Socioemocional (CSSE)",
+        "talk_type_workshop": "Série de Workshops",
+        "talk_csse_desc": "Em aliança com a Direção Regional de Educação de Ayacucho (DREA).",
+        "talk_materials": "Materiais Zenodo:",
+        "btn_watch_playlist": "Ver Playlist",
+        "btn_watch_fb": "Assistir no Facebook",
+
         "contact_email": "E-mail",
         "contact_location": "Localização",
         "contact_social": "Redes Sociais",
@@ -433,7 +450,13 @@ const translations = {
 
         "btn_watch": "動画を見る",
 
-        "nav_contact": "お問い合わせ",
+        "talk_csse_title": "社会情緒的支援と封じ込めワークショップ (CSSE)",
+        "talk_type_workshop": "ワークショップシリーズ",
+        "talk_csse_desc": "アヤクチョ地域教育局（DREA）との提携。",
+        "talk_materials": "Zenodo資料:",
+        "btn_watch_playlist": "プレイリストを見る",
+        "btn_watch_fb": "Facebookで見る",
+
         "contact_email": "メールアドレス",
         "contact_location": "所在地",
         "contact_social": "ソーシャルネットワーク",
