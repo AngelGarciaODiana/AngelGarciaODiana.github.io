@@ -19,6 +19,14 @@ layout: default
                 <li data-i18n="talk_nov25_d1">27/11: Ethical and methodological aspects of pilot studies in social science research.</li>
                 <li data-i18n="talk_nov25_d2">28/11: Mapping Happiness: Geospatial Network Analysis in Peru.</li>
             </ul>
+            <div class="talk-links">
+                <a href="https://doi.org/10.5281/zenodo.17759530" target="_blank" class="talk-btn btn-zenodo">
+                    <i class="fas fa-file-download"></i> Zenodo
+                </a>
+                <a href="https://doi.org/10.5281/zenodo.17759480" target="_blank" class="talk-btn btn-youtube">
+                    <i class="fab fa-youtube"></i> Watch Video</span>
+                </a>
+            </div>
         </div>
 
         <div class="talk-card">
