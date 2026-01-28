@@ -8,7 +8,7 @@ layout: default
     <div class="talks-year-group">
         <h2 class="year-label">2025</h2>
         <div class="talk-card">
-            <h3 class="talk-title" data-i18n="talk_csse_title">Socio-emotional Support & Containment Workshop (CSSE)</h3>
+            <h3 class="talk-title" data-i18n="talk_csse_title">Socio-emotional Support & Containment Workshop for Emergencies - Natural Disasters (CSSE)</h3>
             <div class="talk-meta">
                 <span><i class="far fa-calendar-alt"></i> Oct - Dec 2025</span>
                 <span><i class="fas fa-map-marker-alt"></i> Ayacucho (PsiNet LAB & DREA)</span>
