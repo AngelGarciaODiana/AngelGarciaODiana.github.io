@@ -32,10 +32,10 @@ library(qgraph)
 
 <div class="lang-block lang-en" markdown="1">
 
-Welcome to PsiNet LAB
-Traditional psychology often relies on linear models. However, human behavior is a complex system.
+## Welcome to PsiNet LAB
+Traditional psychology often relies on linear models. However, human behavior is a **complex system**.
 
-"The mind is not a sum of parts, it is a network of interactions."
+> "The mind is not a sum of parts, it is a network of interactions."
 
 Here I will share my R codes:
 
@@ -46,10 +46,10 @@ library(qgraph)
 
 <div class="lang-block lang-pt" markdown="1">
 
-Bem-vindo ao PsiNet LAB
-A psicologia tradicional muitas vezes baseia-se em modelos lineares. No entanto, o comportamento humano é um sistema complexo.
+## Bem-vindo ao PsiNet LAB
+A psicologia tradicional muitas vezes baseia-se em modelos lineares. No entanto, o comportamento humano é um **sistema complexo**.
 
-"A mente não é uma soma de partes, é uma rede de interações."
+> "A mente não é uma soma de partes, é uma rede de interações."
 
 Aqui compartilharei meus códigos R:
 ```r
@@ -59,10 +59,10 @@ library(qgraph)
 
 <div class="lang-block lang-ja" markdown="1">
 
-PsiNet LABへようこそ
-従来の心理学はしばしば線形モデルに依存しています。しかし、人間の行動は複雑系です。
+## PsiNet LABへようこそ
+従来の心理学はしばしば線形モデルに依存しています。しかし、人間の行動は**複雑系**です。
 
-「心は部分の総和ではなく、相互作用のネットワークである。」
+> 「心は部分の総和ではなく、相互作用のネットワークである。」
 
 ここで私のRコードを共有します：
 ```r
