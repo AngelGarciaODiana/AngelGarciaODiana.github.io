@@ -105,7 +105,7 @@ const translations = {
 
         "btn_watch": "Ver Video",
 
-        "talk_csse_title": "Taller de Contención y Soporte Socioemocional (CSSE)",
+        "talk_csse_title": "Taller de Contención y Soporte Socioemocional Ante Emergencias - Desastres Naturales (CSSE)",
         "talk_type_workshop": "Serie de Talleres",
         "talk_csse_desc": "En alianza con la Dirección Regional de Educación de Ayacucho (DREA).",
         "talk_materials": "Materiales Zenodo:",
@@ -221,7 +221,7 @@ const translations = {
 
         "btn_watch": "Watch Video",
 
-        "talk_csse_title": "Socio-emotional Support & Containment Workshop (CSSE)",
+        "talk_csse_title": "Socio-emotional Support & Containment Workshop for Emergencies - Natural Disasters (CSSE)",
         "talk_type_workshop": "Workshop Series",
         "talk_csse_desc": "In alliance with the Regional Directorate of Education of Ayacucho (DREA).",
         "talk_materials": "Zenodo Materials:",
@@ -335,7 +335,7 @@ const translations = {
 
         "btn_watch": "Assistir Vídeo",
 
-        "talk_csse_title": "Workshop de Contenção e Suporte Socioemocional (CSSE)",
+        "talk_csse_title": "Workshop de Contenção e Suporte Socioemocional em Emergências - Desastres Naturais (CSSE)",
         "talk_type_workshop": "Série de Workshops",
         "talk_csse_desc": "Em aliança com a Direção Regional de Educação de Ayacucho (DREA).",
         "talk_materials": "Materiais Zenodo:",
@@ -450,7 +450,7 @@ const translations = {
 
         "btn_watch": "動画を見る",
 
-        "talk_csse_title": "社会情緒的支援と封じ込めワークショップ (CSSE)",
+        "talk_csse_title": "緊急事態・自然災害における社会情緒的支援と封じ込めワークショップ (CSSE)",
         "talk_type_workshop": "ワークショップシリーズ",
         "talk_csse_desc": "アヤクチョ地域教育局（DREA）との提携。",
         "talk_materials": "Zenodo資料:",
