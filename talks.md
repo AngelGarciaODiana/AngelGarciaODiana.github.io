@@ -95,7 +95,7 @@ layout: default
                 <li data-i18n="talk_feb21_d2">Robust Invariance with R Studio (Mar 6).</li>
             </ul>
             <div class="talk-links">
-                <a href="https://github.com/AngelGarciaODiana/UCV-Mediacion-Moderacion" target="_blank" class="talk-btn">
+                <a href="https://github.com/AngelGarciaODiana/UCV-Mediacion-Moderacion" target="_blank" class="talk-btn btn-github">
                     <i class="fab fa-github"></i> Repository / Materials
                 </a>
             </div>
