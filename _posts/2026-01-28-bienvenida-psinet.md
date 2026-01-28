@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-02-01
+date: 2026-01-28
 author: "Angel García O'Diana"
 
 # --- ZONA DE TRADUCCIÓN DE TÍTULOS (ESTO SE VE EN EL MENÚ) ---
