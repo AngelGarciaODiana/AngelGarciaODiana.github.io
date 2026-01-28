@@ -1,6 +1,3 @@
----
----
-
 /* --- PALETA DE COLORES FUTURISTA (MODO OSCURO) --- */
 :root {
   --bg-dark: #0f1115;       /* Fondo casi negro, muy profundo */
@@ -924,3 +921,28 @@ ul.clean-list i {
     transition: color 0.2s;
 }
 .back-link:hover { color: var(--accent); }
+
+/* --- SOPORTE MULTILINGÜE PARA BLOG --- */
+
+.lang-block {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+/* Para mostrar el activo */
+.lang-block.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Ajuste para los metadatos del blog */
+.blog-meta-lang {
+    display: none;
+}
+.blog-meta-lang.active {
+    display: block;
+}
