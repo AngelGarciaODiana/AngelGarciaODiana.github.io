@@ -83,14 +83,14 @@ const translations = {
         "proj_dtdd_desc": "Análisis avanzado de los rasgos de la Tríada Oscura utilizando Análisis Multiverso, Árboles de Expansión Mínima (MST) y Análisis Geoespacial.",
 
         // --- TALKS ---
-        "talk_nov25_title": "XIII Congreso Internacional de Psicoterapia",
+        "talk_nov25_title": "XIII Congreso Internacional de Psicoterapia y VI Congreso Internacional de Investigación en Psicología",
         "talk_nov25_d1": "27/11: Aspectos éticos y metodológicos del estudio piloto en ciencias sociales.",
         "talk_nov25_d2": "28/11: Mapeando la Felicidad: Análisis de redes Geoespacial en el Perú.",
         
-        "talk_may25_title": "Modelando con Jamovi: Intro Práctica a Regresión",
+        "talk_may25_title": "Modelando con Jamovi: Introducción Práctica al Análisis de Regresión",
         "talk_may25_desc": "Introducción práctica al análisis de regresión usando Jamovi para investigadores.",
         
-        "talk_dec24_psi_title": "ESPACIO MENTAL: De la Idea a la Innovación",
+        "talk_dec24_psi_title": "ESPACIO MENTAL: De la Idea a la Innovación en Investigación Científica",
         "talk_dec24_psi_d1": "13/12: Teoría de la complejidad aplicada a la psicología.",
         "talk_dec24_psi_d2": "14/12: Psicología y Psiquiatría Espacial.",
         
@@ -180,14 +180,14 @@ const translations = {
         "proj_dtdd_title": "National Dark Triad (DTDD-P)",
         "proj_dtdd_desc": "Advanced analysis of the Dark Triad traits using Multiverse Analysis, Minimum Spanning Trees (MST), and Geospatial Analysis.",
 
-        "talk_nov25_title": "XIII International Congress of Psychotherapy",
+        "talk_nov25_title": "13th International Congress of Psychotherapy and 6th International Congress of Psychology Research",
         "talk_nov25_d1": "27/11: Ethical and methodological aspects of pilot studies in social science.",
         "talk_nov25_d2": "28/11: Mapping Happiness: Geospatial Network Analysis in Peru.",
         
-        "talk_may25_title": "Modeling with Jamovi: Practical Intro to Regression",
+        "talk_may25_title": "Modeling with Jamovi: A Practical Introduction to Regression Analysis",
         "talk_may25_desc": "Practical introduction to regression analysis using Jamovi software.",
         
-        "talk_dec24_psi_title": "MENTAL SPACE: From Idea to Innovation",
+        "talk_dec24_psi_title": "MENTAL SPACE: From Idea to Innovation in Scientific Research",
         "talk_dec24_psi_d1": "13/12: Complexity theory applied to psychology.",
         "talk_dec24_psi_d2": "14/12: Space Psychology and Psychiatry.",
         
@@ -277,14 +277,14 @@ const translations = {
         "proj_dtdd_title": "Tríade Obscura Nacional (DTDD-P)",
         "proj_dtdd_desc": "Análise avançada dos traços da Tríade Obscura usando Análise Multiverso, Árvores de Abrangência Mínima (MST) e Análise Geoespacial.",
 
-        "talk_nov25_title": "XIII Congresso Internacional de Psicoterapia",
+        "talk_nov25_title": "XIII Congresso Internacional de Psicoterapia e VI Congresso Internacional de Investigação em Psicologia",
         "talk_nov25_d1": "27/11: Aspectos éticos e metodológicos do estudo piloto em ciências sociais.",
         "talk_nov25_d2": "28/11: Mapeando a Felicidade: Análise de Redes Geoespacial no Peru.",
         
-        "talk_may25_title": "Modelagem com Jamovi: Intro Prática à Regressão",
+        "talk_may25_title": "Modelando com Jamovi: Introdução prática à análise de regressão",
         "talk_may25_desc": "Introdução prática à análise de regressão usando o software Jamovi.",
         
-        "talk_dec24_psi_title": "ESPAÇO MENTAL: Da Ideia à Inovação",
+        "talk_dec24_psi_title": "ESPAÇO MENTAL: Da ideia à inovação na pesquisa científica",
         "talk_dec24_psi_d1": "13/12: Teoria da complexidade aplicada à psicologia.",
         "talk_dec24_psi_d2": "14/12: Psicologia e Psiquiatria Espacial.",
         
@@ -374,14 +374,14 @@ const translations = {
         "proj_dtdd_title": "全国ダークトライアド (DTDD-P)",
         "proj_dtdd_desc": "マルチバース分析、最小全域木（MST）、および地理空間分析を使用したダークトライアド特性の高度な分析。",
 
-        "talk_nov25_title": "第13回 国際心理療法会議",
+        "talk_nov25_title": "第13回国際心理療法会議および第6回国際心理学研究会議",
         "talk_nov25_d1": "11/27: 社会科学研究におけるパイロットスタディの倫理的および方法論的側面。",
         "talk_nov25_d2": "11/28: 幸福のマッピング：ペルーにおける地理空間ネットワーク分析。",
         
         "talk_may25_title": "Jamoviによるモデリング：回帰分析の実践入門",
         "talk_may25_desc": "Jamoviソフトウェアを使用した回帰分析の実践的入門。",
         
-        "talk_dec24_psi_title": "メンタルスペース：アイデアからイノベーションへ",
+        "talk_dec24_psi_title": "メンタルスペース：科学研究におけるアイデアからイノベーションへ",
         "talk_dec24_psi_d1": "12/13: 心理学に応用される複雑性理論。",
         "talk_dec24_psi_d2": "12/14: 宇宙心理学および精神医学。",
         
