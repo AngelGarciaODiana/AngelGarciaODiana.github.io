@@ -121,6 +121,10 @@ const translations = {
         "form_email": "Correo",
         "form_message": "Mensaje",
         "form_send": "Enviar Mensaje",
+
+        // --- BLOG ---
+        "btn_read_more": "Leer Artículo",
+        "btn_back_blog": "Volver al Blog",
     },
     "en": {
         "nav_about": "About",
@@ -235,6 +239,9 @@ const translations = {
         "form_email": "Email",
         "form_message": "Message",
         "form_send": "Send Message",
+
+        "btn_read_more": "Read Article",
+        "btn_back_blog": "Back to Blog",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -350,6 +357,9 @@ const translations = {
         "form_email": "E-mail",
         "form_message": "Mensagem",
         "form_send": "Enviar Mensagem",
+
+        "btn_read_more": "Ler Artigo",
+        "btn_back_blog": "Voltar ao Blog",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -465,6 +475,9 @@ const translations = {
         "form_email": "メールアドレス",
         "form_message": "メッセージ",
         "form_send": "送信する",
+
+        "btn_read_more": "記事を読む",
+        "btn_back_blog": "ブログに戻る",
     }
 };
 
