@@ -26,10 +26,6 @@ layout: default
                 <a href="https://doi.org/10.5281/zenodo.17759480" target="_blank" class="talk-btn btn-zenodo">
                     <i class="fas fa-file-download"></i> Zenodo 2
                 </a>
-                <a href="https://doi.org/10.5281/zenodo.17759480" target="_blank" class="talk-btn btn-youtube">
-                    <i class="fab fa-youtube"></i>
-                    <span data-i18n="btn_watch">Watch Video</span>
-                </a>
             </div>
         </div>
 
