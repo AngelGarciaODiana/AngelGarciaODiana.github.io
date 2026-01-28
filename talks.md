@@ -7,8 +7,42 @@ layout: default
 
     <div class="talks-year-group">
         <h2 class="year-label">2025</h2>
-
         <div class="talk-card">
+            <h3 class="talk-title" data-i18n="talk_csse_title">Socio-emotional Support & Containment Workshop (CSSE)</h3>
+            <div class="talk-meta">
+                <span><i class="far fa-calendar-alt"></i> Oct - Dec 2025</span>
+                <span><i class="fas fa-map-marker-alt"></i> Ayacucho (PsiNet LAB & DREA)</span>
+                <span data-i18n="talk_type_workshop">Workshop Series</span>
+            </div>
+            
+            <p style="color: var(--text-main); margin-bottom: 10px;" data-i18n="talk_csse_desc">
+                In alliance with the Regional Directorate of Education of Ayacucho (DREA).
+            </p>
+
+            <div style="margin-bottom: 15px; font-size: 0.9rem; color: #8b949e;">
+                <i class="fas fa-file-alt"></i> <span data-i18n="talk_materials">Zenodo Materials:</span>
+                <a href="https://doi.org/10.5281/zenodo.17268368" target="_blank" style="color: var(--accent); margin-left: 5px;">S1</a> •
+                <a href="https://doi.org/10.5281/zenodo.17561305" target="_blank" style="color: var(--accent);">S2</a> •
+                <a href="https://doi.org/10.5281/zenodo.17561362" target="_blank" style="color: var(--accent);">S3</a> •
+                <a href="https://doi.org/10.5281/zenodo.17619973" target="_blank" style="color: var(--accent);">S4</a> •
+                <a href="https://doi.org/10.5281/zenodo.17765788" target="_blank" style="color: var(--accent);">S5</a> •
+                <a href="https://doi.org/10.5281/zenodo.17945932" target="_blank" style="color: var(--accent);">S6</a>
+            </div>
+
+            <div class="talk-links">
+                <a href="https://youtube.com/playlist?list=PLkIaJDwih0sXLixqdXTLcUFc9Cloc3Ew6&si=7NjeK528aMFrSml4" target="_blank" class="talk-btn btn-youtube">
+                    <i class="fab fa-youtube"></i>
+                    <span data-i18n="btn_watch_playlist">Watch Playlist</span>
+                </a>
+                
+                <a href="https://www.facebook.com/watch/61556688500882/1844403556112289" target="_blank" class="talk-btn btn-facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    <span data-i18n="btn_watch_fb">Facebook Watch</span>
+                </a>
+            </div>
+        </div>
+        
+        <div class="talk-card">        
             <h3 class="talk-title" data-i18n="talk_nov25_title">XIII International Congress of Psychotherapy</h3>
             <div class="talk-meta">
                 <span><i class="far fa-calendar-alt"></i> Nov 2025</span>
