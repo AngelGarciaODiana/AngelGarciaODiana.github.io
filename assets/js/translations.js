@@ -104,6 +104,17 @@ const translations = {
         "talk_feb21_d2": "Invarianza robusta con R Studio (6 Mar).",
 
         "btn_watch": "Ver Video",
+
+        // --- CONTACT ---
+        "nav_contact": "Contacto",
+        "contact_email": "Correo Electrónico",
+        "contact_location": "Ubicación",
+        "contact_social": "Redes Sociales",
+        "contact_msg": "¿Interesado en colaborar, supervisión de tesis o simplemente quieres saludar? Envíame un mensaje.",
+        "form_name": "Nombre",
+        "form_email": "Correo",
+        "form_message": "Mensaje",
+        "form_send": "Enviar Mensaje",
     },
     "en": {
         "nav_about": "About",
@@ -203,6 +214,16 @@ const translations = {
         "talk_feb21_d2": "Robust Invariance with R Studio (Mar 6).",
 
         "btn_watch": "Watch Video",
+
+        "nav_contact": "Contact",
+        "contact_email": "Email",
+        "contact_location": "Location",
+        "contact_social": "Social Networks",
+        "contact_msg": "Interested in collaboration, PhD supervision, or just want to say hi? Send me a message.",
+        "form_name": "Name",
+        "form_email": "Email",
+        "form_message": "Message",
+        "form_send": "Send Message",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -302,6 +323,16 @@ const translations = {
         "talk_feb21_d2": "Invariância robusta com R Studio (6 Mar).",
 
         "btn_watch": "Assistir Vídeo",
+
+        "nav_contact": "Contato",
+        "contact_email": "E-mail",
+        "contact_location": "Localização",
+        "contact_social": "Redes Sociais",
+        "contact_msg": "Interessado em colaboração, supervisão de doutorado ou apenas quer dizer oi? Envie-me uma mensagem.",
+        "form_name": "Nome",
+        "form_email": "E-mail",
+        "form_message": "Mensagem",
+        "form_send": "Enviar Mensagem",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -401,6 +432,16 @@ const translations = {
         "talk_feb21_d2": "R Studioを使用したロバスト不変性（3月6日）。",
 
         "btn_watch": "動画を見る",
+
+        "nav_contact": "お問い合わせ",
+        "contact_email": "メールアドレス",
+        "contact_location": "所在地",
+        "contact_social": "ソーシャルネットワーク",
+        "contact_msg": "共同研究、博士論文の指導、またはご挨拶など、お気軽にメッセージをお送りください。",
+        "form_name": "お名前",
+        "form_email": "メールアドレス",
+        "form_message": "メッセージ",
+        "form_send": "送信する",
     }
 };
 
