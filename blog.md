@@ -9,12 +9,22 @@ layout: default
         {% for post in site.posts %}
         <div class="blog-card">
             <span class="blog-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            
             <h3 class="blog-title">
                 <a href="{{ post.url | relative_url }}" style="color: inherit; text-decoration: none;">
-                    {{ post.title }}
+                    <span class="blog-meta-lang lang-es active">{{ post.title_es }}</span>
+                    <span class="blog-meta-lang lang-en">{{ post.title_en }}</span>
+                    <span class="blog-meta-lang lang-pt">{{ post.title_pt }}</span>
+                    <span class="blog-meta-lang lang-ja">{{ post.title_ja }}</span>
                 </a>
             </h3>
-            <p class="blog-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+
+            <div class="blog-excerpt">
+                <span class="blog-meta-lang lang-es active">{{ post.excerpt_es }}</span>
+                <span class="blog-meta-lang lang-en">{{ post.excerpt_en }}</span>
+                <span class="blog-meta-lang lang-pt">{{ post.excerpt_pt }}</span>
+                <span class="blog-meta-lang lang-ja">{{ post.excerpt_ja }}</span>
+            </div>
             
             <a href="{{ post.url | relative_url }}" class="read-more-btn">
                 <span data-i18n="btn_read_more">Read Article</span> <i class="fas fa-arrow-right"></i>
