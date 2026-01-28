@@ -688,3 +688,123 @@ ul.clean-list i {
     border-color: #2dba4e;
     color: #fff;
 }
+
+/* --- PÁGINA DE CONTACTO --- */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; /* Columna izquierda info, derecha formulario */
+    gap: 60px;
+    margin-top: 40px;
+    align-items: start;
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr; /* Una sola columna en celular */
+        gap: 40px;
+    }
+}
+
+/* Columna Izquierda: Info */
+.contact-info-card {
+    background: var(--bg-panel);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.contact-method {
+    margin-bottom: 25px;
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 700;
+}
+
+.contact-value {
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+}
+
+.contact-value:hover {
+    text-decoration: underline;
+    color: var(--accent);
+}
+
+/* Columna Derecha: Formulario */
+.contact-form-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.form-input, .form-textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--border); /* Solo línea inferior */
+    padding: 15px 0;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Efecto Focus: La línea se pone azul y brilla */
+.form-input:focus, .form-textarea:focus {
+    outline: none;
+    border-bottom-color: var(--accent);
+    box-shadow: 0 10px 20px -10px var(--accent-glow);
+}
+
+.form-label-float {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    color: #8b949e;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+/* Animación de la etiqueta al escribir */
+.form-input:focus ~ .form-label-float,
+.form-input:valid ~ .form-label-float,
+.form-textarea:focus ~ .form-label-float,
+.form-textarea:valid ~ .form-label-float {
+    top: -10px;
+    font-size: 0.8rem;
+    color: var(--accent);
+}
+
+.submit-btn {
+    background: transparent;
+    border: 2px solid var(--accent);
+    color: var(--accent);
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.submit-btn:hover {
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 0 20px var(--accent-glow);
+}
