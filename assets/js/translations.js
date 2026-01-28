@@ -490,6 +490,7 @@ function changeLanguage(lang) {
         document.body.style.fontFamily = "'Inter', sans-serif";
     }
 
+    // TRADUCCIÓN DE TEXTOS CORTOS (Interfaz)
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(el => {
         const key = el.getAttribute('data-i18n');
@@ -498,9 +499,23 @@ function changeLanguage(lang) {
         }
     });
 
+    // TRADUCCIÓN DE BLOQUES DE CONTENIDO (Blog)
+    document.querySelectorAll('.lang-block, .blog-meta-lang').forEach(el => {
+        el.classList.remove('active');
+        el.style.display = 'none'; // Forzamos ocultar
+    });
+
+    document.querySelectorAll(`.lang-block.lang-${lang}, .blog-meta-lang.lang-${lang}`).forEach(el => {
+        el.classList.add('active');
+        el.style.display = 'block'; // Forzamos mostrar
+    });
+
+    // Botones del menú
     document.querySelectorAll('.lang-btn').forEach(btn => {
         btn.classList.remove('active');
         if(btn.innerText.toLowerCase() === lang) btn.classList.add('active');
+        // Caso especial para PT(BR) que a veces se etiqueta distinto
+        if(lang === 'pt' && btn.innerText.includes('PT')) btn.classList.add('active');
     });
 }
 
