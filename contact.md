@@ -11,7 +11,7 @@ layout: default
             <div class="contact-method">
                 <span class="contact-label" data-i18n="contact_email">Email</span>
                 <a href="mailto:angelous.035@gmail.com" class="contact-value">
-                    <i class="fas fa-envelope"></i> angelous.035@gmail.com
+                    <i class="fas fa-envelope"></i> agarciao10@ucvvirtual.edu.pe
                 </a>
             </div>
 
@@ -37,7 +37,7 @@ layout: default
                 Interested in collaboration, PhD supervision, or just want to say hi? Send me a message.
             </p>
 
-            <form action="https://formspree.io/f/angelous.035@gmail.com" method="POST">
+            <form action="https://formspree.io/f/agarciao10@ucvvirtual.edu.pe" method="POST">
                 
                 <div class="contact-form-group">
                     <input type="text" name="name" class="form-input" required>
