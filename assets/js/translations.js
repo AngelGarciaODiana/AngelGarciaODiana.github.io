@@ -102,6 +102,8 @@ const translations = {
         "talk_feb21_title": "Revisiones Sistemáticas, Mediación y Moderación",
         "talk_feb21_d1": "Mediación y Moderación con JASP, Jamovi y R (20-21 Feb).",
         "talk_feb21_d2": "Invarianza robusta con R Studio (6 Mar).",
+
+        "btn_watch": "Ver Video",
     },
     "en": {
         "nav_about": "About",
@@ -199,6 +201,8 @@ const translations = {
         "talk_feb21_title": "Systematic Reviews, Mediation & Moderation",
         "talk_feb21_d1": "Mediation and Moderation with JASP, Jamovi & R (Feb 20-21).",
         "talk_feb21_d2": "Robust Invariance with R Studio (Mar 6).",
+
+        "btn_watch": "Watch Video",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -296,6 +300,8 @@ const translations = {
         "talk_feb21_title": "Revisões Sistemáticas, Mediação e Moderação",
         "talk_feb21_d1": "Mediação e Moderação com JASP, Jamovi e R (20-21 Fev).",
         "talk_feb21_d2": "Invariância robusta com R Studio (6 Mar).",
+
+        "btn_watch": "Assistir Vídeo",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -393,6 +399,8 @@ const translations = {
         "talk_feb21_title": "システマティックレビュー、媒介および調整",
         "talk_feb21_d1": "JASP、Jamovi、Rを使用した媒介および調整（2月20-21日）。",
         "talk_feb21_d2": "R Studioを使用したロバスト不変性（3月6日）。",
+
+        "btn_watch": "動画を見る",
     }
 };
 
