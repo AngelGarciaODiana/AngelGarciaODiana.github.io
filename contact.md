@@ -37,7 +37,7 @@ layout: default
                 Interested in collaboration, PhD supervision, or just want to say hi? Send me a message.
             </p>
 
-            <form action="https://formspree.io/f/agarciao10@ucvvirtual.edu.pe" method="POST">
+            <form action="https://formspree.io/f/xjgeqrpv" method="POST">
                 
                 <div class="contact-form-group">
                     <input type="text" name="name" class="form-input" required>
