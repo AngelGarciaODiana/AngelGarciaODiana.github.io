@@ -130,6 +130,12 @@ const translations = {
         // --- BLOG ---
         "btn_read_more": "Leer Artículo",
         "btn_back_blog": "Volver al Blog",
+
+        // --- SOFTWARE ---
+        "soft_intro": "Colección de herramientas computacionales, algoritmos de análisis y simulaciones físicas.",
+        "soft_bh_title": "Simulación de Agujero Negro",
+        "soft_bh_desc": "Simulación de física computacional escrita en C puro. Modela los efectos de lente gravitacional y el cálculo de trayectorias de fotones (geodésicas nulas) alrededor de un agujero negro de Schwarzschild.",
+        "btn_repo": "Repositorio",
     },
     "en": {
         "nav_about": "About",
@@ -252,6 +258,11 @@ const translations = {
 
         "btn_read_more": "Read Article",
         "btn_back_blog": "Back to Blog",
+
+        "soft_intro": "A collection of computational tools, analysis algorithms, and physics simulations.",
+        "soft_bh_title": "Black Hole Simulation",
+        "soft_bh_desc": "Computational physics simulation written in pure C. It models gravitational lensing effects and computes photon trajectories (null geodesics) around a Schwarzschild black hole.",
+        "btn_repo": "Repository",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -375,6 +386,11 @@ const translations = {
 
         "btn_read_more": "Ler Artigo",
         "btn_back_blog": "Voltar ao Blog",
+
+        "soft_intro": "Coleção de ferramentas computacionais, algoritmos de análise e simulações físicas.",
+        "soft_bh_title": "Simulação de Buraco Negro",
+        "soft_bh_desc": "Simulação de física computacional escrita em C puro. Modela efeitos de lentes gravitacionais e o cálculo de trajetórias de fótons (geodésicas nulas) ao redor de um buraco negro de Schwarzschild.",
+        "btn_repo": "Repositório",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -498,6 +514,11 @@ const translations = {
 
         "btn_read_more": "記事を読む",
         "btn_back_blog": "ブログに戻る",
+
+        "soft_intro": "計算ツール、分析アルゴリズム、および物理シミュレーションのコレクション。",
+        "soft_bh_title": "ブラックホールシミュレーション",
+        "soft_bh_desc": "純粋なC言語で記述された計算物理学シミュレーション。シュヴァルツシルト・ブラックホール周辺の重力レンズ効果と光子の軌道（光的測地線）をモデル化します。",
+        "btn_repo": "リポジトリ",
     }
 };
 
