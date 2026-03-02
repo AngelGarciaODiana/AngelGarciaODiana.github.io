@@ -949,3 +949,58 @@ ul.clean-list i {
 .blog-meta-lang.active {
     display: block;
 }
+
+
+
+/* --- PÁGINA DE SOFTWARE (TERMINAL UI) --- */
+
+.terminal-window {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-header {
+    background-color: #161b22;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #30363d;
+}
+
+.terminal-button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.terminal-button.red { background-color: #ff5f56; }
+.terminal-button.yellow { background-color: #ffbd2e; }
+.terminal-button.green { background-color: #27c93f; }
+
+.terminal-title {
+    color: #8b949e;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    margin-left: 10px;
+}
+
+.terminal-body {
+    padding: 15px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    overflow-x: auto;
+    color: #c9d1d9;
+}
+
+/* Colores de sintaxis básicos simulados */
+.syntax-keyword { color: #ff7b72; } /* Rojo/Naranja */
+.syntax-type { color: #ffc233; } /* Amarillo */
+.syntax-function { color: #d2a8ff; } /* Morado */
+.syntax-comment { color: #8b949e; font-style: italic; } /* Gris */
