@@ -8,7 +8,7 @@ layout: default
         <img src="{{ site.github.owner.avatar_url }}" alt="{{ site.title }}" class="profile-pic">
         
         <h1 class="profile-name">Angel A. García O'Diana</h1>
-        <p class="profile-role">
+        <p class="profile-role" style="color: var(--accent);">
             <span data-i18n="role_1">CEO | PsiNet LAB</span><br>
             <span data-i18n="role_2">Professor | UCV</span><br>
         </p>
