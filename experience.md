@@ -10,6 +10,18 @@ layout: default
         <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
+                <h3 class="role-title" data-i18n="exp_cpsp_role">Recording Secretary - Psychometrics Specialization Committee</h3>
+                <div class="company-name">Colegio de Psicólogos del Perú</div>
+                <span class="job-date" data-i18n="exp_cpsp_date">Feb 2026 – Present</span>
+                <ul class="job-details">
+                    <li data-i18n="exp_cpsp_desc1">Managing documentation, agreements, and the work plan for the national psychometrics specialty.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
                 <h3 class="role-title" data-i18n="exp_1_role">Principal Investigator & CEO</h3>
                 <div class="company-name">PsiNet LAB, Peru</div>
                 <span class="job-date" data-i18n="exp_1_date">Jan 2024 – Present</span>
@@ -29,6 +41,7 @@ layout: default
                 <ul class="job-details">
                     <li data-i18n="exp_2_desc1">Teaching advanced quantitative methods and research methodology.</li>
                     <li data-i18n="exp_2_desc2">Supervising thesis projects focused on health psychology.</li>
+                    <li data-i18n="exp_2_desc3">Member of the research groups: Peruvian Psychometric Group, QUAESITUM, and ANZEJUNO.</li>
                 </ul>
             </div>
         </div>
@@ -51,7 +64,7 @@ layout: default
             <div class="timeline-content">
                 <h3 class="role-title" data-i18n="exp_4_role">Principal Investigator</h3>
                 <div class="company-name">Peruvian Society of Psychological Research</div>
-                <span class="job-date" data-i18n="exp_4_date">Feb 2021 – Present</span>
+                <span class="job-date" data-i18n="exp_4_date">Feb 2021 – Dec 2023</span>
                 <ul class="job-details">
                     <li data-i18n="exp_4_desc1">Conducting high-impact research on peace psychology.</li>
                 </ul>
