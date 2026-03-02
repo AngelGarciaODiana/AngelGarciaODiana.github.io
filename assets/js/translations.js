@@ -40,6 +40,10 @@ const translations = {
         "footer_text": "© 2026 Ángel García Odiana | Ciencia de Datos & Psicología",
 
         // --- EXPERIENCIA ---
+        "exp_cpsp_role": "Secretario de Actas - Comisión de Especialización en Psicometría",
+        "exp_cpsp_date": "Feb 2026 – Presente",
+        "exp_cpsp_desc1": "Gestión documentaria y de acuerdos para la especialidad de psicometría a nivel nacional.",
+        
         "exp_1_role": "Investigador Principal & CEO",
         "exp_1_date": "Ene 2024 – Presente",
         "exp_1_desc1": "Liderando investigación avanzada en redes psicométricas y modelado del comportamiento humano.",
@@ -49,6 +53,7 @@ const translations = {
         "exp_2_date": "Abr 2025 – Presente",
         "exp_2_desc1": "Enseñanza de métodos cuantitativos avanzados y metodología de investigación.",
         "exp_2_desc2": "Supervisión de proyectos de tesis enfocados en psicología de la salud.",
+        "exp_2_desc3": "Miembro de los grupos de investigación: Peruvian Psychometric Group, QUAESITUM y ANZEJUNO.",
         
         "exp_3_role": "Mentor",
         "exp_3_date": "Ago 2023 – Presente",
@@ -56,7 +61,7 @@ const translations = {
         "exp_3_desc2": "Mentoría de estudiantes en psicología cuantitativa y análisis de datos.",
 
         "exp_4_role": "Investigador Principal",
-        "exp_4_date": "Feb 2021 – Presente",
+        "exp_4_date": "Feb 2021 – Dic 2023",
         "exp_4_desc1": "Realización de investigaciones de alto impacto en psicología de la paz.",
 
         // --- PAPERS ---
@@ -163,6 +168,10 @@ const translations = {
         
         "footer_text": "© 2026 Ángel García Odiana | Data Science & Psychology",
 
+        "exp_cpsp_role": "Recording Secretary - Psychometrics Specialization Committee",
+        "exp_cpsp_date": "Feb 2026 – Present",
+        "exp_cpsp_desc1": "Managing documentation, agreements, and the work plan for the national psychometrics specialty.",
+
         "exp_1_role": "Principal Investigator & CEO",
         "exp_1_date": "Jan 2024 – Present",
         "exp_1_desc1": "Leading advanced research in psychometric networks and human behavior modeling.",
@@ -172,6 +181,7 @@ const translations = {
         "exp_2_date": "Apr 2025 – Present",
         "exp_2_desc1": "Teaching advanced quantitative methods and research methodology.",
         "exp_2_desc2": "Supervising thesis projects focused on health psychology.",
+        "exp_2_desc3": "Member of the research groups: Peruvian Psychometric Group, QUAESITUM, and ANZEJUNO.",
         
         "exp_3_role": "Mentor",
         "exp_3_date": "Aug 2023 – Present",
@@ -179,7 +189,7 @@ const translations = {
         "exp_3_desc2": "Mentoring students in quantitative psychology and data analysis.",
 
         "exp_4_role": "Principal Investigator",
-        "exp_4_date": "Feb 2021 – Present",
+        "exp_4_date": "Feb 2021 – Dec 2023",
         "exp_4_desc1": "Conducting high-impact research on peace psychology.",
 
         "pub_main_author": "Main Author",
@@ -280,6 +290,10 @@ const translations = {
         
         "footer_text": "© 2026 Ángel García Odiana | Ciência de Dados & Psicologia",
 
+        "exp_cpsp_role": "Secretário de Atas - Comitê de Especialização em Psicometria",
+        "exp_cpsp_date": "Fev 2026 – Presente",
+        "exp_cpsp_desc1": "Gestão de documentação e acordos para a especialidade de psicometria em nível nacional.",
+
         "exp_1_role": "Pesquisador Principal & CEO",
         "exp_1_date": "Jan 2024 – Presente",
         "exp_1_desc1": "Liderando pesquisas avançadas em redes psicométricas e modelagem comportamental.",
@@ -289,6 +303,7 @@ const translations = {
         "exp_2_date": "Abr 2025 – Presente",
         "exp_2_desc1": "Ensino de métodos quantitativos avançados e metodologia de pesquisa.",
         "exp_2_desc2": "Supervisão de projetos de tese focados em psicologia da saúde.",
+        "exp_2_desc3": "Membro dos grupos de pesquisa: Peruvian Psychometric Group, QUAESITUM e ANZEJUNO.",
         
         "exp_3_role": "Mentor",
         "exp_3_date": "Ago 2023 – Presente",
@@ -296,7 +311,7 @@ const translations = {
         "exp_3_desc2": "Mentoria de estudantes em psicologia quantitativa e análise de dados.",
 
         "exp_4_role": "Pesquisador Principal",
-        "exp_4_date": "Fev 2021 – Presente",
+        "exp_4_date": "Fev 2021 – Dez 2023",
         "exp_4_desc1": "Realização de pesquisas de alto impacto em psicologia da paz.",
 
         "pub_main_author": "Autor Principal",
@@ -398,6 +413,10 @@ const translations = {
         
         "footer_text": "© 2026 アンヘル・ガルシア | データサイエンス & 心理学",
 
+        "exp_cpsp_role": "計量心理学専門委員会 記録書記",
+        "exp_cpsp_date": "2026年2月 – 現在",
+        "exp_cpsp_desc1": "全国計量心理学専門分野の文書および合意事項の管理。",
+
         "exp_1_role": "主任研究員 & CEO",
         "exp_1_date": "2024年1月 – 現在",
         "exp_1_desc1": "心理測定ネットワークおよび人間行動モデリングに関する最先端の研究を主導。",
@@ -407,6 +426,7 @@ const translations = {
         "exp_2_date": "2025年4月 – 現在",
         "exp_2_desc1": "高度な定量的手法および研究方法論の指導。",
         "exp_2_desc2": "健康心理学に焦点を当てた論文プロジェクトの指導。",
+        "exp_2_desc3": "研究グループのメンバー：Peruvian Psychometric Group、QUAESITUM、ANZEJUNO。",
         
         "exp_3_role": "メンター",
         "exp_3_date": "2023年8月 – 現在",
@@ -414,7 +434,7 @@ const translations = {
         "exp_3_desc2": "計量心理学およびデータ分析における学生の指導。",
 
         "exp_4_role": "主任研究員",
-        "exp_4_date": "2021年2月 – 現在",
+        "exp_4_date": "2021年2月 – 2023年12月",
         "exp_4_desc1": "平和心理学に関するインパクトの高い研究の実施。",
 
         "pub_main_author": "筆頭著者",
