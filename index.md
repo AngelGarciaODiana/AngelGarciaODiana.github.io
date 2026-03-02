@@ -11,7 +11,6 @@ layout: default
         <p class="profile-role">
             <span data-i18n="role_1">CEO | PsiNet LAB</span><br>
             <span data-i18n="role_2">Professor | UCV</span><br>
-            <span style="color: var(--accent); font-size: 0.9em;" data-i18n="role_3">Data Scientist</span>
         </p>
         
         <div class="social-icons">
