@@ -1004,3 +1004,32 @@ ul.clean-list i {
 .syntax-type { color: #ffc233; } /* Amarillo */
 .syntax-function { color: #d2a8ff; } /* Morado */
 .syntax-comment { color: #8b949e; font-style: italic; } /* Gris */
+
+
+/* --- AJUSTES DE SHOWCASE --- */
+.showcase-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.showcase-visual {
+    flex: 1; /* Ocupa el 40% del ancho */
+}
+
+.showcase-visual img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.showcase-terminal {
+    flex: 1.5; /* Ocupa el 60% del ancho */
+}
+
+@media (max-width: 768px) {
+    .showcase-container {
+        flex-direction: column; /* Una columna en móvil */
+    }
+}
