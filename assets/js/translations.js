@@ -136,6 +136,8 @@ const translations = {
         "soft_bh_title": "Simulación de Agujero Negro",
         "soft_bh_desc": "Simulación de física computacional escrita en C puro. Modela los efectos de lente gravitacional y el cálculo de trayectorias de fotones (geodésicas nulas) alrededor de un agujero negro de Schwarzschild.",
         "btn_repo": "Repositorio",
+        "soft_bh_teaser_desc": "Física computacional de alto rendimiento escrita en C puro. El proyecto modela los efectos de lente gravitacional y calcula trayectorias de fotones (geodésicas nulas) alrededor de un agujero negro de Schwarzschild. El repositorio es privado, pero puedes solicitar acceso.",
+        "btn_request_repo": "Solicitar Acceso (Repo Privado)",
     },
     "en": {
         "nav_about": "About",
@@ -263,6 +265,8 @@ const translations = {
         "soft_bh_title": "Black Hole Simulation",
         "soft_bh_desc": "Computational physics simulation written in pure C. It models gravitational lensing effects and computes photon trajectories (null geodesics) around a Schwarzschild black hole.",
         "btn_repo": "Repository",
+        "soft_bh_teaser_desc": "High-performance computational physics written in pure C. The project models gravitational lensing effects and computes photon trajectories (null geodesics) around a Schwarzschild black hole. The repository is private, but you can request access.",
+        "btn_request_repo": "Request Access (Private Repo)",
     },
     "pt": {
         "nav_about": "Sobre Mim",
@@ -391,6 +395,8 @@ const translations = {
         "soft_bh_title": "Simulação de Buraco Negro",
         "soft_bh_desc": "Simulação de física computacional escrita em C puro. Modela efeitos de lentes gravitacionais e o cálculo de trajetórias de fótons (geodésicas nulas) ao redor de um buraco negro de Schwarzschild.",
         "btn_repo": "Repositório",
+        "soft_bh_teaser_desc": "Física computacional de alto desempenho escrita em C puro. O projeto modela efeitos de lentes gravitacionais e calcula trajetórias de fótons (geodésicas nulas) ao redor de um buraco negro de Schwarzschild. O repositório é privado, mas você pode solicitar acesso.",
+        "btn_request_repo": "Solicitar Acesso (Repo Privado)",
     },
     "ja": {
         "nav_about": "プロフィール",
@@ -519,6 +525,8 @@ const translations = {
         "soft_bh_title": "ブラックホールシミュレーション",
         "soft_bh_desc": "純粋なC言語で記述された計算物理学シミュレーション。シュヴァルツシルト・ブラックホール周辺の重力レンズ効果と光子の軌道（光的測地線）をモデル化します。",
         "btn_repo": "リポジトリ",
+        "soft_bh_teaser_desc": "純粋なC言語で記述された高性能計算物理学。このプロジェクトは、シュヴァルツシルト・ブラックホール周辺の重力レンズ効果をモデル化し、光子の軌道（光的測地線）を計算します。リポジトリは非公開ですが、アクセスをリクエストできます。",
+        "btn_request_repo": "アクセスをリクエスト (プライベートリポジトリ)",
     }
 };
 
