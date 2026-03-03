@@ -37,18 +37,28 @@ layout: default
                         </div>
                         <div class="terminal-body">
 <pre style="margin: 0;">
-<span class="syntax-keyword">#include</span> <span class="syntax-type">&lt;stdio.h&gt;</span>
-<span class="syntax-keyword">#include</span> <span class="syntax-type">&lt;gsl/gsl_integration.h&gt;</span>
+<span class="syntax-comment">// Bucle de simulación en tiempo real</span>
+<span class="syntax-keyword">while</span> (!<span class="syntax-function">glfwWindowShouldClose</span>(engine.window)) {
+    <span class="syntax-type">double</span> dt = <span class="syntax-function">glfwGetTime</span>() - lastTime;
 
-<span class="syntax-comment">// Teaser code: Logic not exposed</span>
-<span class="syntax-type">void</span> <span class="syntax-function">calculate_null_geodesic</span>(<span class="syntax-type">double</span> *r, <span class="syntax-type">double</span> *phi, <span class="syntax-type">double</span> M, <span class="syntax-type">double</span> step) {
-    <span class="syntax-comment">/* Schwarzschild metric integration logic here */</span>
-}
+    <span class="syntax-comment">// 1. Cinemática de N-Cuerpos (Fuerza Gravitacional)</span>
+    <span class="syntax-comment">/* Ecuaciones de movimiento y tensores de curvatura omitidos */</span>
+    <span class="syntax-function">update_gravitational_forces</span>(objects, dt, Gravity);
 
-<span class="syntax-type">int </span><span class="syntax-function">main</span>() {
-    <span class="syntax-comment">// Output: Simulation running...</span>
-    <span class="syntax-keyword">printf</span>(<span class="syntax-type">"Simulating black hole lensing...\n"</span>);
-    <span class="syntax-keyword">return</span> <span class="syntax-type">0</span>;
+    <span class="syntax-comment">// 2. Renderizado por Compute Shaders (Geodésicas Nulas)</span>
+    <span class="syntax-function">glViewport</span>(0, 0, engine.WIDTH, engine.HEIGHT);
+    engine.<span class="syntax-function">dispatchCompute</span>(camera);
+    engine.<span class="syntax-function">drawFullScreenQuad</span>();
+
+    <span class="syntax-comment">// 3. Topología del Espacio-Tiempo (Malla de Curvatura)</span>
+    engine.<span class="syntax-function">generateGrid</span>(objects);
+    <span class="syntax-type">mat4</span> view = <span class="syntax-function">lookAt</span>(camera.<span class="syntax-function">position</span>(), camera.target, UP);
+    <span class="syntax-type">mat4</span> viewProj = proj * view;
+    engine.<span class="syntax-function">drawGrid</span>(viewProj);
+
+    <span class="syntax-comment">// 4. Presentación en pantalla</span>
+    <span class="syntax-function">glfwSwapBuffers</span>(engine.window);
+    <span class="syntax-function">glfwPollEvents</span>();
 }
 </pre>
                         </div>
