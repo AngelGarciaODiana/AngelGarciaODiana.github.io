@@ -73,7 +73,7 @@ layout: default
             </div>
             
             <div class="project-links" style="margin-top: 20px;">
-                <a href="mailto:angelous.035@gmail.com?subject=Request%20Access%20to%20Black%20Hole%20Repo" class="talk-btn btn-github">
+                <a href="mailto:agarciao10@ucvvirtual.edu.pe?subject=Request%20Access%20to%20Black%20Hole%20Repo" class="talk-btn btn-github">
                     <i class="fas fa-key"></i> <span data-i18n="btn_request_repo">Request Access (Private Repo)</span>
                 </a>
             </div>
