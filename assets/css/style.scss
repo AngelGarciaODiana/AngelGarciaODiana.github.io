@@ -1006,30 +1006,49 @@ ul.clean-list i {
 .syntax-comment { color: #8b949e; font-style: italic; } /* Gris */
 
 
-/* --- AJUSTES DE SHOWCASE --- */
+/* --- AJUSTES DE SHOWCASE (ACTUALIZADO PARA 2 GIFs) --- */
 .showcase-container {
     display: flex;
     gap: 30px;
     margin-top: 20px;
+    align-items: flex-start; /* Alinea el inicio de las columnas */
 }
 
 .showcase-visual {
-    flex: 1; /* Ocupa el 40% del ancho */
+    flex: 1; /* Mantiene la proporción del 40% aproximadamente */
+    display: flex;
+    flex-direction: column; /* Apila los GIFs verticalmente */
+    gap: 15px; /* Espacio entre los dos GIFs */
 }
 
 .showcase-visual img {
     width: 100%;
+    height: auto; /* Mantiene la relación de aspecto */
     border-radius: 8px;
     border: 1px solid var(--border);
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+/* Efecto sutil al pasar el mouse sobre los GIFs */
+.showcase-visual img:hover {
+    transform: scale(1.02);
+    border-color: var(--accent);
 }
 
 .showcase-terminal {
-    flex: 1.5; /* Ocupa el 60% del ancho */
+    flex: 1.5; /* Mantiene la proporción del 60% aproximadamente */
+    /* Nos aseguramos de que el terminal no se estire innecesariamente */
+    position: sticky;
+    top: 20px;
 }
 
 @media (max-width: 768px) {
     .showcase-container {
         flex-direction: column; /* Una columna en móvil */
+    }
+    .showcase-terminal {
+        position: static; /* Desactiva sticky en móvil */
+        width: 100%;
     }
 }
