@@ -23,7 +23,8 @@ layout: default
             <div class="showcase-container">
                 
                 <div class="showcase-visual">
-                    <img src="{{ '/assets/img/black_hole_simulation.gif' | relative_url }}" alt="Black Hole Ray Tracing Animation">
+                    <img src="{{ '/assets/img/black_hole.gif' | relative_url }}" alt="Black Hole Simulation View 1">
+                    <img src="{{ '/assets/img/black_hole_2.gif' | relative_url }}" alt="Black Hole Simulation View 2">
                 </div>
 
                 <div class="showcase-terminal">
