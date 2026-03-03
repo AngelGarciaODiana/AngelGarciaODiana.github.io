@@ -33,30 +33,30 @@ layout: default
                             <span class="terminal-button red"></span>
                             <span class="terminal-button yellow"></span>
                             <span class="terminal-button green"></span>
-                            <span class="terminal-title">schwarzschild_teaser.c (Closed Repo)</span>
+                            <span class="terminal-title">black_hole_teaser.c (Closed Repo)</span>
                         </div>
                         <div class="terminal-body">
 <pre style="margin: 0;">
-<span class="syntax-comment">// Bucle de simulación en tiempo real</span>
+<span class="syntax-comment">// <span data-i18n="bh_code_1">Bucle de simulación en tiempo real</span></span>
 <span class="syntax-keyword">while</span> (!<span class="syntax-function">glfwWindowShouldClose</span>(engine.window)) {
     <span class="syntax-type">double</span> dt = <span class="syntax-function">glfwGetTime</span>() - lastTime;
 
-    <span class="syntax-comment">// 1. Cinemática de N-Cuerpos (Fuerza Gravitacional)</span>
-    <span class="syntax-comment">/* Ecuaciones de movimiento y tensores de curvatura omitidos */</span>
+    <span class="syntax-comment">// <span data-i18n="bh_code_2">1. Cinemática de N-Cuerpos (Fuerza Gravitacional)</span></span>
+    <span class="syntax-comment">/* <span data-i18n="bh_code_3">Ecuaciones de movimiento y tensores de curvatura omitidos</span> */</span>
     <span class="syntax-function">update_gravitational_forces</span>(objects, dt, Gravity);
 
-    <span class="syntax-comment">// 2. Renderizado por Compute Shaders (Geodésicas Nulas)</span>
+    <span class="syntax-comment">// <span data-i18n="bh_code_4">2. Renderizado por Compute Shaders (Geodésicas Nulas)</span></span>
     <span class="syntax-function">glViewport</span>(0, 0, engine.WIDTH, engine.HEIGHT);
     engine.<span class="syntax-function">dispatchCompute</span>(camera);
     engine.<span class="syntax-function">drawFullScreenQuad</span>();
 
-    <span class="syntax-comment">// 3. Topología del Espacio-Tiempo (Malla de Curvatura)</span>
+    <span class="syntax-comment">// <span data-i18n="bh_code_5">3. Topología del Espacio-Tiempo (Malla de Curvatura)</span></span>
     engine.<span class="syntax-function">generateGrid</span>(objects);
     <span class="syntax-type">mat4</span> view = <span class="syntax-function">lookAt</span>(camera.<span class="syntax-function">position</span>(), camera.target, UP);
     <span class="syntax-type">mat4</span> viewProj = proj * view;
     engine.<span class="syntax-function">drawGrid</span>(viewProj);
 
-    <span class="syntax-comment">// 4. Presentación en pantalla</span>
+    <span class="syntax-comment">// <span data-i18n="bh_code_6">4. Presentación en pantalla</span></span>
     <span class="syntax-function">glfwSwapBuffers</span>(engine.window);
     <span class="syntax-function">glfwPollEvents</span>();
 }
