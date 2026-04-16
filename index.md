@@ -53,7 +53,8 @@ layout: default
                         <i class="fas fa-user-graduate"></i>
                         <div>
                             <strong data-i18n="edu_phd">PhD, Public Health (En curso)</strong><br>
-                            <small data-i18n="univ_name">Universidad César Vallejo</small>
+                            <small data-i18n="univ_phd_name">Universidad Nacional Mayor de San Marcos</small><br>
+                            <small style="color: var(--accent);" data-i18n="edu_phd_merit">★ 2.° puesto en el cuadro de mérito</small>
                         </div>
                     </li>
                     
