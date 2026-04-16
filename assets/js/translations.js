@@ -450,7 +450,7 @@ const translations = {
         "edu_title": "学歴",
         "edu_phd": "公衆衛生学博士（在学中）",
         "univ_phd_name": "サンマルコス国立大学",
-        "edu_phd_merit": "★ 成績順位2位で入学",
+        "edu_phd_merit": "★ 成績順位2位",
         "edu_msc": "修士（大学教育）",
         "edu_bsc": "学士（心理学）",
         
