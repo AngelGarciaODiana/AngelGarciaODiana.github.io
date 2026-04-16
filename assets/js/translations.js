@@ -28,6 +28,8 @@ const translations = {
         
         "edu_title": "Educación",
         "edu_phd": "PhD, Salud Pública (En curso)",
+        "univ_phd_name": "Universidad Nacional Mayor de San Marcos",
+        "edu_phd_merit": "★ 2.° puesto en el cuadro de mérito",
         "edu_msc": "MSc, Docencia Universitaria",
         "edu_bsc": "Lic., Psicología",
         
@@ -172,6 +174,8 @@ const translations = {
         
         "edu_title": "Education",
         "edu_phd": "PhD, Public Health (In progress)",
+        "univ_phd_name": "National University of San Marcos",
+        "edu_phd_merit": "★ 2nd place in the merit ranking",
         "edu_msc": "MSc, University Education",
         "edu_bsc": "BSc, Psychology",
         
@@ -307,6 +311,8 @@ const translations = {
         
         "edu_title": "Educação",
         "edu_phd": "Doutorado em Saúde Pública (Em curso)",
+        "univ_phd_name": "Universidade Nacional Maior de San Marcos",
+        "edu_phd_merit": "★ 2.° lugar no quadro de mérito",
         "edu_msc": "MSc, Ensino Universitário",
         "edu_bsc": "Lic., Psicologia",
         
@@ -443,6 +449,8 @@ const translations = {
         
         "edu_title": "学歴",
         "edu_phd": "公衆衛生学博士（在学中）",
+        "univ_phd_name": "サンマルコス国立大学",
+        "edu_phd_merit": "★ 成績順位2位で入学",
         "edu_msc": "修士（大学教育）",
         "edu_bsc": "学士（心理学）",
         
