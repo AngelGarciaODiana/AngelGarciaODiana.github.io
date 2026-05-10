@@ -574,7 +574,7 @@ function storeLanguage(lang) {
     try {
         localStorage.setItem('preferredLanguage', lang);
     } catch (error) {
-        // No-op: algunos navegadores antiguos o modos privados bloquean storage
+        // No-op: some legacy browsers or private modes block storage access
     }
 }
 
