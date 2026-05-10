@@ -49,7 +49,7 @@ layout: default
                 <span class="tech-tag">Network Analysis</span>
             </div>
             <div class="project-links">
-                <a href="https://osf.io/u83rv/" target="_blank" class="project-link-icon"><i class="fas fa-file-alt"></i> OSF Data</a>
+                <a href="https://osf.io/u83rv/" target="_blank" rel="noopener noreferrer" class="project-link-icon"><i class="fas fa-file-alt"></i> OSF Data</a>
             </div>
         </div>
 

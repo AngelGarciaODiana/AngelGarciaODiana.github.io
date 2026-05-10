@@ -21,21 +21,21 @@ layout: default
 
             <div style="margin-bottom: 15px; font-size: 0.9rem; color: #8b949e;">
                 <i class="fas fa-file-alt"></i> <span data-i18n="talk_materials">Zenodo Materials:</span>
-                <a href="https://doi.org/10.5281/zenodo.17268368" target="_blank" style="color: var(--accent); margin-left: 5px;">S1</a> •
-                <a href="https://doi.org/10.5281/zenodo.17561305" target="_blank" style="color: var(--accent);">S2</a> •
-                <a href="https://doi.org/10.5281/zenodo.17561362" target="_blank" style="color: var(--accent);">S3</a> •
-                <a href="https://doi.org/10.5281/zenodo.17619973" target="_blank" style="color: var(--accent);">S4</a> •
-                <a href="https://doi.org/10.5281/zenodo.17765788" target="_blank" style="color: var(--accent);">S5</a> •
-                <a href="https://doi.org/10.5281/zenodo.17945932" target="_blank" style="color: var(--accent);">S6</a>
+                <a href="https://doi.org/10.5281/zenodo.17268368" target="_blank" rel="noopener noreferrer" style="color: var(--accent); margin-left: 5px;">S1</a> •
+                <a href="https://doi.org/10.5281/zenodo.17561305" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">S2</a> •
+                <a href="https://doi.org/10.5281/zenodo.17561362" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">S3</a> •
+                <a href="https://doi.org/10.5281/zenodo.17619973" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">S4</a> •
+                <a href="https://doi.org/10.5281/zenodo.17765788" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">S5</a> •
+                <a href="https://doi.org/10.5281/zenodo.17945932" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">S6</a>
             </div>
 
             <div class="talk-links">
-                <a href="https://youtube.com/playlist?list=PLkIaJDwih0sXLixqdXTLcUFc9Cloc3Ew6&si=7NjeK528aMFrSml4" target="_blank" class="talk-btn btn-youtube">
+                <a href="https://youtube.com/playlist?list=PLkIaJDwih0sXLixqdXTLcUFc9Cloc3Ew6&si=7NjeK528aMFrSml4" target="_blank" rel="noopener noreferrer" class="talk-btn btn-youtube">
                     <i class="fab fa-youtube"></i>
                     <span data-i18n="btn_watch_playlist">Watch Playlist</span>
                 </a>
                 
-                <a href="https://www.facebook.com/watch/61556688500882/1844403556112289" target="_blank" class="talk-btn btn-facebook">
+                <a href="https://www.facebook.com/watch/61556688500882/1844403556112289" target="_blank" rel="noopener noreferrer" class="talk-btn btn-facebook">
                     <i class="fab fa-facebook-f"></i>
                     <span data-i18n="btn_watch_fb">Facebook Watch</span>
                 </a>
@@ -54,10 +54,10 @@ layout: default
                 <li data-i18n="talk_nov25_d2">28/11: Mapping Happiness: Geospatial Network Analysis in Peru.</li>
             </ul>
             <div class="talk-links">
-                <a href="https://doi.org/10.5281/zenodo.17759530" target="_blank" class="talk-btn btn-zenodo">
+                <a href="https://doi.org/10.5281/zenodo.17759530" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
                     <i class="fas fa-file-download"></i> Zenodo 1
                 </a>
-                <a href="https://doi.org/10.5281/zenodo.17759480" target="_blank" class="talk-btn btn-zenodo">
+                <a href="https://doi.org/10.5281/zenodo.17759480" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
                     <i class="fas fa-file-download"></i> Zenodo 2
                 </a>
             </div>
@@ -89,10 +89,10 @@ layout: default
                 <li data-i18n="talk_dec24_psi_d2">14/12: Space Psychology and Psychiatry.</li>
             </ul>
             <div class="talk-links">
-                <a href="https://doi.org/10.5281/zenodo.14503580" target="_blank" class="talk-btn btn-zenodo">
+                <a href="https://doi.org/10.5281/zenodo.14503580" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
                     <i class="fas fa-file-download"></i> Zenodo
                 </a>
-                <a href="https://youtube.com/playlist?list=PLkIaJDwih0sVUPSkhr0nYdYhN_ss1WRQC&si=E1ywysiWlBjyQDVu" target="_blank" class="talk-btn btn-youtube">
+                <a href="https://youtube.com/playlist?list=PLkIaJDwih0sVUPSkhr0nYdYhN_ss1WRQC&si=E1ywysiWlBjyQDVu" target="_blank" rel="noopener noreferrer" class="talk-btn btn-youtube">
                     <i class="fab fa-youtube"></i>
                     <span data-i18n="btn_watch">Watch Playlist</span>
                 </a>
@@ -121,7 +121,7 @@ layout: default
             </div>
             <p data-i18n="talk_feb23_desc">Advanced training on conducting meta-analyses using R programming.</p>
             <div class="talk-links">
-                <a href="https://github.com/AngelGarciaODiana/Taller-Meta-Analisis" target="_blank" class="talk-btn btn-github">
+                <a href="https://github.com/AngelGarciaODiana/Taller-Meta-Analisis" target="_blank" rel="noopener noreferrer" class="talk-btn btn-github">
                     <i class="fab fa-github"></i> Repository / Materials
                 </a>
             </div>
@@ -143,7 +143,7 @@ layout: default
                 <li data-i18n="talk_feb21_d2">Robust Invariance with R Studio (Mar 6).</li>
             </ul>
             <div class="talk-links">
-                <a href="https://github.com/AngelGarciaODiana/UCV-Mediacion-Moderacion" target="_blank" class="talk-btn btn-github">
+                <a href="https://github.com/AngelGarciaODiana/UCV-Mediacion-Moderacion" target="_blank" rel="noopener noreferrer" class="talk-btn btn-github">
                     <i class="fab fa-github"></i> Repository / Materials
                 </a>
             </div>

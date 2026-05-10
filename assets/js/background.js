@@ -1,4 +1,5 @@
-particlesJS("particles-js", {
+if (typeof window.particlesJS === "function") {
+  particlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 80, /* Cantidad de nodos */
@@ -67,4 +68,5 @@ particlesJS("particles-js", {
     }
   },
   "retina_detect": true
-});
+  });
+}
