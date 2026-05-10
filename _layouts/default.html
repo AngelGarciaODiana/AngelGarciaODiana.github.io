@@ -11,46 +11,48 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
 
-    <div id="particles-js"></div>
+    <div id="particles-js" aria-hidden="true"></div>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Navegación principal">
         <div class="nav-container">
-            <a href="/" class="nav-brand-stack">
+            <a href="{{ '/' | relative_url }}" class="nav-brand-stack">
     <img src="{{ '/assets/img/logo.png' | relative_url }}" alt="Logo PsiNet" class="brand-img">
     <span class="brand-text">AGO'D</span>
 </a>
             <div class="nav-links">
-                <a href="/" data-i18n="nav_about">About</a>
-                <a href="/experience" data-i18n="nav_exp">Experience</a>
-                <a href="/papers" data-i18n="nav_papers">Papers</a>
-                <a href="/projects" data-i18n="nav_projects">Projects</a>
-                <a href="/software" data-i18n="nav_soft">Software</a>
-                <a href="/talks" data-i18n="nav_talks">Talks</a>
-                <a href="/blog" data-i18n="nav_blog">Blog</a>
-                <a href="/contact" data-i18n="nav_contact">Contact</a>
+                <a href="{{ '/' | relative_url }}" data-i18n="nav_about">About</a>
+                <a href="{{ '/experience' | relative_url }}" data-i18n="nav_exp">Experience</a>
+                <a href="{{ '/papers' | relative_url }}" data-i18n="nav_papers">Papers</a>
+                <a href="{{ '/projects' | relative_url }}" data-i18n="nav_projects">Projects</a>
+                <a href="{{ '/software' | relative_url }}" data-i18n="nav_soft">Software</a>
+                <a href="{{ '/talks' | relative_url }}" data-i18n="nav_talks">Talks</a>
+                <a href="{{ '/blog' | relative_url }}" data-i18n="nav_blog">Blog</a>
+                <a href="{{ '/contact' | relative_url }}" data-i18n="nav_contact">Contact</a>
                 
-                <div class="lang-switcher">
-                    <span onclick="changeLanguage('es')" class="lang-btn">ES</span>
-                    <span onclick="changeLanguage('en')" class="lang-btn">EN</span>
-                    <span onclick="changeLanguage('pt')" class="lang-btn">PT(BR)</span>
-                    <span onclick="changeLanguage('ja')" class="lang-btn">JA</span>
+                <div class="lang-switcher" role="group" aria-label="Selector de idioma">
+                    <button type="button" class="lang-btn" data-lang="es" aria-label="Cambiar idioma a español">ES</button>
+                    <button type="button" class="lang-btn" data-lang="en" aria-label="Change language to English">EN</button>
+                    <button type="button" class="lang-btn" data-lang="pt" aria-label="Mudar idioma para português">PT(BR)</button>
+                    <button type="button" class="lang-btn" data-lang="ja" aria-label="言語を日本語に変更">JA</button>
                 </div>
             </div>
         </div>
     </nav>
 
-    <main class="main-content">
+    <main id="main-content" class="main-content" tabindex="-1">
         <div class="container">
             {{ content }}
         </div>
     </main>
 
     <footer class="footer">
-        <p>© 2026 Angel García O'Diana | Data Science & Psychology</p>
+        <p data-i18n="footer_text">© 2026 Angel García O'Diana | Data Science & Psychology</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="{{ '/assets/js/legacy-support.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/background.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/translations.js' | relative_url }}"></script>
 

@@ -15,7 +15,7 @@ layout: default
                 <span class="journal-name">BMC Psychology</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://osf.io/y59br/" target="_blank" class="badge-link">OSF / Preprint</a>
+                <a href="https://osf.io/y59br/" target="_blank" rel="noopener noreferrer" class="badge-link">OSF / Preprint</a>
             </div>
         </div>
 
@@ -26,7 +26,7 @@ layout: default
                 <span class="journal-name">Journal of Psychiatric Research</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://osf.io/u83rv" target="_blank" class="badge-link">OSF / Preprint</a>
+                <a href="https://osf.io/u83rv" target="_blank" rel="noopener noreferrer" class="badge-link">OSF / Preprint</a>
             </div>
         </div>
 
@@ -37,7 +37,7 @@ layout: default
                 <span class="journal-name">Europe’s Journal of Psychology</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://osf.io/8mpag" target="_blank" class="badge-link">OSF / Preprint</a>
+                <a href="https://osf.io/8mpag" target="_blank" rel="noopener noreferrer" class="badge-link">OSF / Preprint</a>
             </div>
         </div>
 
@@ -48,7 +48,7 @@ layout: default
                 <span class="journal-name">Death Studies</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://osf.io/92wzn" target="_blank" class="badge-link">OSF / Preprint</a>
+                <a href="https://osf.io/92wzn" target="_blank" rel="noopener noreferrer" class="badge-link">OSF / Preprint</a>
             </div>
         </div>
 
@@ -59,7 +59,7 @@ layout: default
                 <span class="journal-name">Zenodo</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.5281/zenodo.14042973" target="_blank" class="badge-link">DOI: 10.5281</a>
+                <a href="https://doi.org/10.5281/zenodo.14042973" target="_blank" rel="noopener noreferrer" class="badge-link">DOI: 10.5281</a>
             </div>
         </div>
 
@@ -70,7 +70,7 @@ layout: default
                 <span class="journal-name">SSRN</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://ssrn.com/abstract=4946225" target="_blank" class="badge-link">SSRN Link</a>
+                <a href="https://ssrn.com/abstract=4946225" target="_blank" rel="noopener noreferrer" class="badge-link">SSRN Link</a>
             </div>
         </div>
 
@@ -81,7 +81,7 @@ layout: default
                 <span class="journal-name">SSRN</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://ssrn.com/abstract=4346941" target="_blank" class="badge-link">SSRN Link</a>
+                <a href="https://ssrn.com/abstract=4346941" target="_blank" rel="noopener noreferrer" class="badge-link">SSRN Link</a>
             </div>
         </div>
     </div>
@@ -96,7 +96,7 @@ layout: default
                 <span class="journal-name">Interpersona: An International Journal on Personal Relationships</span>, 18(2), 265-286.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.5964/ijpr.10911" target="_blank" class="badge-link">DOI</a>
+                <a href="https://doi.org/10.5964/ijpr.10911" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
             </div>
         </div>
 
@@ -107,7 +107,7 @@ layout: default
                 <span class="journal-name">Scientific Reports</span>, 14(1), 7741.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.1038/s41598-024-58256-8" target="_blank" class="badge-link">DOI</a>
+                <a href="https://doi.org/10.1038/s41598-024-58256-8" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
             </div>
         </div>
 
@@ -118,7 +118,7 @@ layout: default
                 <span class="journal-name">Psychol Res Behav Manag</span>, 17:467-483.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.2147/PRBM.S435871" target="_blank" class="badge-link">DOI</a>
+                <a href="https://doi.org/10.2147/PRBM.S435871" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
             </div>
         </div>
 
@@ -129,7 +129,7 @@ layout: default
                 <span class="journal-name">Frontiers in Psychiatry</span>, 14.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.3389/fpsyt.2023.1124257" target="_blank" class="badge-link">DOI</a>
+                <a href="https://doi.org/10.3389/fpsyt.2023.1124257" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
             </div>
         </div>
 
@@ -140,7 +140,7 @@ layout: default
                 <span class="journal-name">OMEGA – Journal of Death and Dying</span>.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.1177/00302228231166833" target="_blank" class="badge-link">DOI</a>
+                <a href="https://doi.org/10.1177/00302228231166833" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
             </div>
         </div>
 
@@ -151,7 +151,7 @@ layout: default
                 <span class="journal-name">Personality and Individual Differences</span>, 215, 112377.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.1016/j.paid.2023.112377" target="_blank" class="badge-link">DOI</a>
+                <a href="https://doi.org/10.1016/j.paid.2023.112377" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
             </div>
         </div>
 
@@ -162,7 +162,7 @@ layout: default
                 <span class="journal-name">Frontiers in Public Health</span>, 10, 981944.
             </div>
             <div class="pub-badges">
-                <a href="https://doi.org/10.3389/fpubh.2022.981944" target="_blank" class="badge-link">DOI</a>
+                <a href="https://doi.org/10.3389/fpubh.2022.981944" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
             </div>
         </div>
     </div>

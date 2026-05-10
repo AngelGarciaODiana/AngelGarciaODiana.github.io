@@ -25,9 +25,9 @@ layout: default
             <div class="contact-method">
                 <span class="contact-label" data-i18n="contact_social">Social Networks</span>
                 <div class="social-icons" style="justify-content: flex-start; margin-top: 10px;">
-                    <a href="https://github.com/angelgarciaodiana"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/agarciaodiana"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://allmylinks.com/agarciao10"><i class="fas fa-link"></i></a>
+                    <a href="https://github.com/angelgarciaodiana" aria-label="Perfil de GitHub de Angel García O'Diana"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    <a href="https://linkedin.com/in/agarciaodiana" aria-label="Perfil de LinkedIn de Angel García O'Diana"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="https://allmylinks.com/agarciao10" aria-label="All My Links de Angel García O'Diana"><i class="fas fa-link" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -37,21 +37,21 @@ layout: default
                 Interested in collaboration, PhD supervision, or just want to say hi? Send me a message.
             </p>
 
-            <form action="https://formspree.io/f/xjgeqrpv" method="POST">
+            <form action="https://formspree.io/f/xjgeqrpv" method="POST" aria-label="Formulario de contacto">
                 
                 <div class="contact-form-group">
-                    <input type="text" name="name" class="form-input" required>
-                    <label class="form-label-float" data-i18n="form_name">Name</label>
+                    <input id="contact-name" type="text" name="name" class="form-input" required>
+                    <label for="contact-name" class="form-label-float" data-i18n="form_name">Name</label>
                 </div>
 
                 <div class="contact-form-group">
-                    <input type="email" name="email" class="form-input" required>
-                    <label class="form-label-float" data-i18n="form_email">Email</label>
+                    <input id="contact-email" type="email" name="email" class="form-input" required>
+                    <label for="contact-email" class="form-label-float" data-i18n="form_email">Email</label>
                 </div>
 
                 <div class="contact-form-group">
-                    <textarea name="message" class="form-textarea" required></textarea>
-                    <label class="form-label-float" data-i18n="form_message">Message</label>
+                    <textarea id="contact-message" name="message" class="form-textarea" required></textarea>
+                    <label for="contact-message" class="form-label-float" data-i18n="form_message">Message</label>
                 </div>
 
                 <button type="submit" class="submit-btn" data-i18n="form_send">Send Message</button>
