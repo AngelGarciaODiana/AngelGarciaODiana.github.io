@@ -94,6 +94,13 @@ layout: default
             <a href="https://orcid.org/0000-0002-1533-7760" target="_blank" rel="noopener noreferrer" data-i18n="peer_review_source_link">View ORCID profile</a>
         </div>
         <div id="peer-review-status" class="peer-review-status" data-i18n="peer_review_loading">Loading public peer-review activity…</div>
-        <div id="peer-review-list" class="peer-review-list" aria-live="polite"></div>
+        <div id="peer-review-dashboard" class="peer-review-dashboard" hidden>
+            <div id="peer-review-summary" class="peer-review-summary" aria-live="polite"></div>
+            <div id="peer-review-charts" class="peer-review-charts"></div>
+            <details id="peer-review-details" class="peer-review-details">
+                <summary data-i18n="peer_review_details_toggle">View detailed entries</summary>
+                <div id="peer-review-list" class="peer-review-list"></div>
+            </details>
+        </div>
     </section>
 </div>
