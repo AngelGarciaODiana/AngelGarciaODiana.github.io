@@ -83,6 +83,18 @@ const translations = {
         "peer_review_completion_label": "Fecha",
         "peer_review_subject_label": "Revista / editorial",
         "peer_review_updated_label": "Actualizado automáticamente desde ORCID",
+        "peer_review_details_toggle": "Ver detalle completo",
+        "peer_review_summary_total_label": "Revisiones totales",
+        "peer_review_summary_publishers_label": "Editoriales / organizaciones",
+        "peer_review_summary_years_label": "Años con actividad",
+        "peer_review_summary_latest_label": "Registro más reciente",
+        "peer_review_chart_publishers_title": "Editoriales con más revisiones",
+        "peer_review_chart_years_title": "Revisiones por año",
+        "peer_review_chart_types_title": "Distribución por tipo",
+        "peer_review_chart_unknown_type": "No especificado",
+        "peer_review_chart_unknown_year": "Sin fecha",
+        "peer_review_chart_other": "Otros",
+        "peer_review_chart_records_suffix": "registros",
 
         // --- PAPERS ---
         "pub_main_author": "Autor Principal",
@@ -268,6 +280,18 @@ const translations = {
         "peer_review_completion_label": "Date",
         "peer_review_subject_label": "Journal / publisher",
         "peer_review_updated_label": "Updated automatically from ORCID",
+        "peer_review_details_toggle": "View detailed entries",
+        "peer_review_summary_total_label": "Total reviews",
+        "peer_review_summary_publishers_label": "Publishers / organizations",
+        "peer_review_summary_years_label": "Active years",
+        "peer_review_summary_latest_label": "Latest record",
+        "peer_review_chart_publishers_title": "Publishers with the most reviews",
+        "peer_review_chart_years_title": "Reviews by year",
+        "peer_review_chart_types_title": "Distribution by type",
+        "peer_review_chart_unknown_type": "Not specified",
+        "peer_review_chart_unknown_year": "No date",
+        "peer_review_chart_other": "Other",
+        "peer_review_chart_records_suffix": "records",
 
         "pub_main_author": "Main Author",
         "pub_co_author": "Co-Author",
@@ -446,6 +470,18 @@ const translations = {
         "peer_review_completion_label": "Data",
         "peer_review_subject_label": "Revista / editora",
         "peer_review_updated_label": "Atualizado automaticamente a partir do ORCID",
+        "peer_review_details_toggle": "Ver detalhes completos",
+        "peer_review_summary_total_label": "Revisões totais",
+        "peer_review_summary_publishers_label": "Editoras / organizações",
+        "peer_review_summary_years_label": "Anos com atividade",
+        "peer_review_summary_latest_label": "Registro mais recente",
+        "peer_review_chart_publishers_title": "Editoras com mais revisões",
+        "peer_review_chart_years_title": "Revisões por ano",
+        "peer_review_chart_types_title": "Distribuição por tipo",
+        "peer_review_chart_unknown_type": "Não especificado",
+        "peer_review_chart_unknown_year": "Sem data",
+        "peer_review_chart_other": "Outros",
+        "peer_review_chart_records_suffix": "registros",
 
         "pub_main_author": "Autor Principal",
         "pub_co_author": "Coautoria",
@@ -625,6 +661,18 @@ const translations = {
         "peer_review_completion_label": "日付",
         "peer_review_subject_label": "誌名 / 出版社",
         "peer_review_updated_label": "ORCID から自動更新",
+        "peer_review_details_toggle": "詳細を表示",
+        "peer_review_summary_total_label": "総査読件数",
+        "peer_review_summary_publishers_label": "出版社 / 組織数",
+        "peer_review_summary_years_label": "活動年数",
+        "peer_review_summary_latest_label": "最新記録",
+        "peer_review_chart_publishers_title": "査読件数の多い出版社・組織",
+        "peer_review_chart_years_title": "年ごとの査読件数",
+        "peer_review_chart_types_title": "種別ごとの構成",
+        "peer_review_chart_unknown_type": "未指定",
+        "peer_review_chart_unknown_year": "日付なし",
+        "peer_review_chart_other": "その他",
+        "peer_review_chart_records_suffix": "件",
 
         "pub_main_author": "筆頭著者",
         "pub_co_author": "共著者",
@@ -731,6 +779,7 @@ const ORCID_ACCEPT_HEADERS = [
     'application/vnd.orcid+json',
     'application/json'
 ];
+const PEER_REVIEW_CHART_COLORS = ['#58a6ff', '#7ee787', '#f2cc60', '#ff7b72', '#d2a8ff', '#ffa657'];
 let peerReviewState = {
     status: 'idle',
     entries: []
@@ -901,32 +950,299 @@ function createPeerReviewMeta(lang, labelKey, value) {
     return paragraph;
 }
 
+function countPeerReviewValues(entries, getValue, fallbackLabel) {
+    const counts = new Map();
+
+    entries.forEach(function (entry) {
+        const rawValue = getValue(entry);
+        const value = rawValue ? String(rawValue).trim() : '';
+        const label = value || fallbackLabel;
+        counts.set(label, (counts.get(label) || 0) + 1);
+    });
+
+    return Array.from(counts.entries())
+        .map(function (item) {
+            return {
+                label: item[0],
+                value: item[1]
+            };
+        })
+        .sort(function (a, b) {
+            if (b.value !== a.value) {
+                return b.value - a.value;
+            }
+
+            return a.label.localeCompare(b.label);
+        });
+}
+
+function limitPeerReviewCounts(items, limit, otherLabel) {
+    if (items.length <= limit) {
+        return items;
+    }
+
+    const visibleItems = items.slice(0, limit);
+    const otherCount = items.slice(limit).reduce(function (sum, item) {
+        return sum + item.value;
+    }, 0);
+
+    if (otherCount) {
+        visibleItems.push({
+            label: otherLabel,
+            value: otherCount
+        });
+    }
+
+    return visibleItems;
+}
+
+function getPeerReviewYearLabel(entry, unknownYearLabel) {
+    if (!entry.date) {
+        return unknownYearLabel;
+    }
+
+    const matchedYear = String(entry.date).match(/^\d{4}/);
+    return matchedYear ? matchedYear[0] : unknownYearLabel;
+}
+
+function createPeerReviewStat(label, value) {
+    const card = document.createElement('div');
+    const valueEl = document.createElement('strong');
+    const labelEl = document.createElement('span');
+
+    card.className = 'peer-review-stat';
+    valueEl.className = 'peer-review-stat-value';
+    labelEl.className = 'peer-review-stat-label';
+
+    valueEl.textContent = value;
+    labelEl.textContent = label;
+
+    card.appendChild(valueEl);
+    card.appendChild(labelEl);
+
+    return card;
+}
+
+function createPeerReviewBarChart(title, items, suffix) {
+    const chart = document.createElement('article');
+    const heading = document.createElement('h3');
+    const list = document.createElement('div');
+    const maxValue = items.reduce(function (max, item) {
+        return Math.max(max, item.value);
+    }, 0);
+
+    chart.className = 'peer-review-chart-card';
+    heading.textContent = title;
+    list.className = 'peer-review-bars';
+
+    chart.appendChild(heading);
+
+    items.forEach(function (item) {
+        const wrapper = document.createElement('div');
+        const header = document.createElement('div');
+        const label = document.createElement('span');
+        const value = document.createElement('span');
+        const track = document.createElement('div');
+        const fill = document.createElement('div');
+
+        wrapper.className = 'peer-review-bar-item';
+        header.className = 'peer-review-bar-header';
+        label.className = 'peer-review-bar-label';
+        value.className = 'peer-review-bar-value';
+        track.className = 'peer-review-bar-track';
+        fill.className = 'peer-review-bar-fill';
+
+        label.textContent = item.label;
+        value.textContent = `${item.value} ${suffix}`;
+        fill.style.width = `${maxValue ? (item.value / maxValue) * 100 : 0}%`;
+
+        header.appendChild(label);
+        header.appendChild(value);
+        track.appendChild(fill);
+        wrapper.appendChild(header);
+        wrapper.appendChild(track);
+        list.appendChild(wrapper);
+    });
+
+    chart.appendChild(list);
+
+    return chart;
+}
+
+function createPeerReviewDonutChart(title, items, total, totalLabel) {
+    const chart = document.createElement('article');
+    const heading = document.createElement('h3');
+    const layout = document.createElement('div');
+    const donut = document.createElement('div');
+    const donutTotal = document.createElement('div');
+    const legend = document.createElement('div');
+    let start = 0;
+
+    chart.className = 'peer-review-chart-card';
+    heading.textContent = title;
+    layout.className = 'peer-review-donut-layout';
+    donut.className = 'peer-review-donut';
+    donutTotal.className = 'peer-review-donut-total';
+    legend.className = 'peer-review-legend';
+
+    donut.style.background = `conic-gradient(${items.map(function (item, index) {
+        const percentage = total ? (item.value / total) * 100 : 0;
+        const end = start + percentage;
+        const segment = `${PEER_REVIEW_CHART_COLORS[index % PEER_REVIEW_CHART_COLORS.length]} ${start}% ${end}%`;
+        start = end;
+        return segment;
+    }).join(', ')})`;
+
+    donutTotal.innerHTML = `${total}<small>${totalLabel}</small>`;
+    donut.appendChild(donutTotal);
+
+    items.forEach(function (item, index) {
+        const legendItem = document.createElement('div');
+        const swatch = document.createElement('span');
+        const label = document.createElement('span');
+        const value = document.createElement('span');
+
+        legendItem.className = 'peer-review-legend-item';
+        swatch.className = 'peer-review-legend-swatch';
+        label.className = 'peer-review-legend-label';
+        value.className = 'peer-review-legend-value';
+
+        swatch.style.backgroundColor = PEER_REVIEW_CHART_COLORS[index % PEER_REVIEW_CHART_COLORS.length];
+        label.textContent = item.label;
+        value.textContent = `${item.value}`;
+
+        legendItem.appendChild(swatch);
+        legendItem.appendChild(label);
+        legendItem.appendChild(value);
+        legend.appendChild(legendItem);
+    });
+
+    layout.appendChild(donut);
+    layout.appendChild(legend);
+    chart.appendChild(heading);
+    chart.appendChild(layout);
+
+    return chart;
+}
+
+function renderPeerReviewSummary(lang, entries) {
+    const summaryEl = document.getElementById('peer-review-summary');
+    const chartsEl = document.getElementById('peer-review-charts');
+    if (!summaryEl || !chartsEl) {
+        return;
+    }
+
+    const recordSuffix = getTranslation(lang, 'peer_review_chart_records_suffix');
+    const unknownTypeLabel = getTranslation(lang, 'peer_review_chart_unknown_type');
+    const unknownYearLabel = getTranslation(lang, 'peer_review_chart_unknown_year');
+    const otherLabel = getTranslation(lang, 'peer_review_chart_other');
+    const publisherCounts = limitPeerReviewCounts(
+        countPeerReviewValues(entries, function (entry) {
+            return entry.subject;
+        }, getTranslation(lang, 'peer_review_subject_label')),
+        6,
+        otherLabel
+    );
+    const yearCounts = countPeerReviewValues(entries, function (entry) {
+        return getPeerReviewYearLabel(entry, unknownYearLabel);
+    }, unknownYearLabel).sort(function (a, b) {
+        const aIsYear = /^\d{4}$/.test(a.label);
+        const bIsYear = /^\d{4}$/.test(b.label);
+
+        if (aIsYear && bIsYear) {
+            return Number(a.label) - Number(b.label);
+        }
+
+        if (aIsYear) {
+            return -1;
+        }
+
+        if (bIsYear) {
+            return 1;
+        }
+
+        return a.label.localeCompare(b.label);
+    });
+    const typeCounts = limitPeerReviewCounts(
+        countPeerReviewValues(entries, function (entry) {
+            return entry.type;
+        }, unknownTypeLabel),
+        5,
+        otherLabel
+    );
+    const latestRecord = entries.find(function (entry) {
+        return entry.date;
+    });
+    const uniquePublishers = new Set(entries.map(function (entry) {
+        return entry.subject;
+    }).filter(Boolean));
+    const uniqueYears = new Set(yearCounts.filter(function (item) {
+        return item.label !== unknownYearLabel;
+    }).map(function (item) {
+        return item.label;
+    }));
+
+    summaryEl.innerHTML = '';
+    chartsEl.innerHTML = '';
+
+    summaryEl.appendChild(createPeerReviewStat(getTranslation(lang, 'peer_review_summary_total_label'), String(entries.length)));
+    summaryEl.appendChild(createPeerReviewStat(getTranslation(lang, 'peer_review_summary_publishers_label'), String(uniquePublishers.size)));
+    summaryEl.appendChild(createPeerReviewStat(getTranslation(lang, 'peer_review_summary_years_label'), String(uniqueYears.size)));
+    summaryEl.appendChild(createPeerReviewStat(
+        getTranslation(lang, 'peer_review_summary_latest_label'),
+        latestRecord && latestRecord.date ? latestRecord.date : unknownYearLabel
+    ));
+
+    chartsEl.appendChild(createPeerReviewBarChart(
+        getTranslation(lang, 'peer_review_chart_publishers_title'),
+        publisherCounts,
+        recordSuffix
+    ));
+    chartsEl.appendChild(createPeerReviewBarChart(
+        getTranslation(lang, 'peer_review_chart_years_title'),
+        yearCounts,
+        recordSuffix
+    ));
+    chartsEl.appendChild(createPeerReviewDonutChart(
+        getTranslation(lang, 'peer_review_chart_types_title'),
+        typeCounts,
+        entries.length,
+        recordSuffix
+    ));
+}
+
 function renderPeerReview(lang) {
     const listEl = document.getElementById('peer-review-list');
     const statusEl = document.getElementById('peer-review-status');
+    const dashboardEl = document.getElementById('peer-review-dashboard');
 
-    if (!listEl || !statusEl) {
+    if (!listEl || !statusEl || !dashboardEl) {
         return;
     }
 
     listEl.innerHTML = '';
 
     if (peerReviewState.status === 'loading' || peerReviewState.status === 'idle') {
+        dashboardEl.hidden = true;
         setPeerReviewStatus(lang, 'peer_review_loading');
         return;
     }
 
     if (peerReviewState.status === 'error') {
+        dashboardEl.hidden = true;
         setPeerReviewStatus(lang, 'peer_review_error');
         return;
     }
 
     if (!peerReviewState.entries.length) {
+        dashboardEl.hidden = true;
         setPeerReviewStatus(lang, 'peer_review_empty');
         return;
     }
 
     statusEl.hidden = true;
+    dashboardEl.hidden = false;
+    renderPeerReviewSummary(lang, peerReviewState.entries);
 
     peerReviewState.entries.forEach(function (entry) {
         const card = document.createElement('article');
