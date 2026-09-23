@@ -821,7 +821,19 @@ function formatPeerReviewDate(completionDate) {
 function normalizePeerReviewEntry(summary) {
     const subject = summary['subject-container-name'] && summary['subject-container-name'].value
         ? summary['subject-container-name'].value
-        : (summary.organization && summary.organization.name ? summary.organization.name : '');
+        : (
+            summary['convening-organization'] && summary['convening-organization'].name
+                ? summary['convening-organization'].name
+                : (
+                    summary.organization && summary.organization.name
+                        ? summary.organization.name
+                        : (
+                            summary.source && summary.source['source-name'] && summary.source['source-name'].value
+                                ? summary.source['source-name'].value
+                                : ''
+                        )
+                )
+        );
 
     return {
         subject: subject,
@@ -839,22 +851,28 @@ function extractPeerReviewEntries(data) {
     const entries = [];
 
     data.group.forEach(function (group) {
-        if (!group || !Array.isArray(group.summary) || !group.summary.length) {
+        if (!group || !Array.isArray(group['peer-review-group']) || !group['peer-review-group'].length) {
             return;
         }
 
-        const summary = group.summary.find(function (item) {
-            return item && item.visibility === 'public';
-        }) || group.summary[0];
+        group['peer-review-group'].forEach(function (peerReviewGroup) {
+            if (!peerReviewGroup || !Array.isArray(peerReviewGroup['peer-review-summary']) || !peerReviewGroup['peer-review-summary'].length) {
+                return;
+            }
 
-        if (!summary) {
-            return;
-        }
+            const summary = peerReviewGroup['peer-review-summary'].find(function (item) {
+                return item && item.visibility === 'public';
+            }) || peerReviewGroup['peer-review-summary'][0];
 
-        const entry = normalizePeerReviewEntry(summary);
-        if (entry.subject) {
-            entries.push(entry);
-        }
+            if (!summary) {
+                return;
+            }
+
+            const entry = normalizePeerReviewEntry(summary);
+            if (entry.subject) {
+                entries.push(entry);
+            }
+        });
     });
 
     return entries.sort(function (a, b) {
