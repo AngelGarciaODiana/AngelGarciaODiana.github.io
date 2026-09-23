@@ -43,17 +43,6 @@ layout: default
 
         <div class="pub-item">
             <div class="pub-text">
-                <span class="author-highlight">García O’Diana, A. A.</span> (2025). 
-                Suicide Knowledge Test: Development and application of Psychometric Networks (Under Review). 
-                <span class="journal-name">Death Studies</span>.
-            </div>
-            <div class="pub-badges">
-                <a href="https://osf.io/92wzn" target="_blank" rel="noopener noreferrer" class="badge-link">OSF / Preprint</a>
-            </div>
-        </div>
-
-        <div class="pub-item">
-            <div class="pub-text">
                 <span class="author-highlight">García O'Diana, A.</span>, Quispe Callo, G., Zumaran Baldeón, Á., Mamani, J. J., & Casa Chicata, M. (2024). 
                 PsiNet LAB: Transformando la psicología con ciencia avanzada para una comprensión más profunda del comportamiento humano. 
                 <span class="journal-name">Zenodo</span>.
@@ -88,6 +77,17 @@ layout: default
 
     <div class="pub-section">
         <h2 class="pub-category-title" data-i18n="pub_co_author">Co-Author</h2>
+
+        <div class="pub-item">
+            <div class="pub-text">
+                Rodas-Vera, N. M., Yucra-Camposano, J. F., Neira Salas, J. D., Vallejos-Saldarriaga, J. F., Basauri-Delgado, M., <span class="author-highlight">García O’Diana, A. A.</span>, Zumarán Baldeón, A. J., Ramos-Vera, C., &amp; Grigoropoulos, I. (2026).
+                Suicide knowledge test: Development and application of psychometric networks.
+                <span class="journal-name">Death Studies</span>, 1–13.
+            </div>
+            <div class="pub-badges">
+                <a href="https://doi.org/10.1080/07481187.2026.2676984" target="_blank" rel="noopener noreferrer" class="badge-link">DOI</a>
+            </div>
+        </div>
 
         <div class="pub-item">
             <div class="pub-text">
