@@ -22,7 +22,7 @@ layout: default
                 <li data-i18n="talk_apr26_mode">Mode: In person</li>
                 <li data-i18n="talk_apr26_place">Venue: Peruvian Biblical Society (SBP), Av. Petit Thouars 991 - Lima</li>
                 <li data-i18n="talk_apr26_moderator">Panel Moderator: Mg. Claudia Guevara</li>
-                <li data-i18n="talk_apr26_speaker1">Speaker 1: Mg. Angel García O´Diana (15 min)</li>
+                <li data-i18n="talk_apr26_speaker1">Speaker 1: Mg. Angel García O'Diana (15 min)</li>
                 <li data-i18n="talk_apr26_topic1">Topic: "Chaos theory applied to psychology: psychometric measures based on entropy and chaos"</li>
                 <li data-i18n="talk_apr26_speaker2">Speaker 2: Mg. Dennis Saúl Calle Huánuco (15 min)</li>
                 <li data-i18n="talk_apr26_topic2">Topic: "Multidimensional well-being in Peru: identification of latent subgroups from a psychometric approach"</li>
