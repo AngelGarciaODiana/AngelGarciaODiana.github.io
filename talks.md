@@ -10,8 +10,8 @@ layout: default
         <div class="talk-card">
             <h3 class="talk-title" data-i18n="talk_apr26_title">II International Congress of Psychology - "Psychological Well-being, Health and Progress"</h3>
             <div class="talk-meta">
-                <span><i class="far fa-calendar-alt"></i> Apr 2026</span>
-                <span><i class="fas fa-map-marker-alt"></i> Lima, Peru</span>
+                <span><i class="far fa-calendar-alt"></i> <span data-i18n="talk_apr26_meta_date">Apr 2026</span></span>
+                <span><i class="fas fa-map-marker-alt"></i> <span data-i18n="talk_apr26_meta_location">Lima, Peru</span></span>
                 <span data-i18n="talk_apr26_type_panel">Congress Panel</span>
             </div>
             <ul class="talk-details-list">
