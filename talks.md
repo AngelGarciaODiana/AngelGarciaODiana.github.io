@@ -8,6 +8,27 @@ layout: default
     <div class="talks-year-group">
         <h2 class="year-label">2026</h2>
         <div class="talk-card">
+            <h3 class="talk-title" data-i18n="talk_may26_ai_title">Use of Artificial Intelligence, Ethics, Algorithmic Fairness, and Social Responsibility in Psychological Assessment</h3>
+            <div class="talk-meta">
+                <span><i class="far fa-calendar-alt"></i> <span data-i18n="talk_may26_ai_meta_date">May 2026</span></span>
+                <span><i class="fas fa-map-marker-alt"></i> <span data-i18n="talk_may26_ai_meta_location">Virtual (Zoom & Facebook)</span></span>
+                <span data-i18n="talk_may26_ai_type">Conference</span>
+            </div>
+            <ul class="talk-details-list">
+                <li data-i18n="talk_may26_ai_author">Author/Creator: García O'Diana, Angel Alfonso (Researcher)</li>
+            </ul>
+            <p data-i18n="talk_may26_ai_desc">
+                This repository contains the presentation and outreach material for the virtual conference on responsible AI in psychological assessment, covering bias taxonomy, the shift from DIF to DAF, and technical-ethical safeguards such as XAI, transparency interfaces, and shared accountability between AI developers and clinical psychologists.
+            </p>
+            <div class="talk-links">
+                <a href="https://doi.org/10.5281/zenodo.22913926" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
+                    <i class="fas fa-file-download"></i>
+                    <span data-i18n="talk_may26_ai_material">Zenodo Material (opens in a new tab)</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="talk-card">
             <h3 class="talk-title" data-i18n="talk_apr26_title">2nd International Congress of Psychology - "Psychological Well-being, Health and Progress"</h3>
             <div class="talk-meta">
                 <span><i class="far fa-calendar-alt"></i> <span data-i18n="talk_apr26_meta_date">Apr 2026</span></span>
