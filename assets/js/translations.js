@@ -726,7 +726,7 @@ const translations = {
     }
 };
 
-const ORCID_PEER_REVIEW_URL = 'https://pub.orcid.org/v3.0/0000-0002-1533-7760/peer-review';
+const ORCID_PEER_REVIEW_URL = 'https://pub.orcid.org/v3.0/0000-0002-1533-7760/peer-reviews';
 const ORCID_ACCEPT_HEADERS = [
     'application/vnd.orcid+json',
     'application/json'
