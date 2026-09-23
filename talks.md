@@ -14,11 +14,8 @@ layout: default
                 <span><i class="fas fa-map-marker-alt"></i> <span data-i18n="talk_may26_ai_meta_location">Virtual (Zoom & Facebook)</span></span>
                 <span data-i18n="talk_may26_ai_type">Conference</span>
             </div>
-            <ul class="talk-details-list">
-                <li data-i18n="talk_may26_ai_author">Author/Creator: García O'Diana, Angel Alfonso (Researcher)</li>
-            </ul>
             <p data-i18n="talk_may26_ai_desc">
-                This repository contains the presentation and outreach material for the virtual conference on responsible AI in psychological assessment, covering bias taxonomy, the shift from DIF to DAF, and technical-ethical safeguards such as XAI, transparency interfaces, and shared accountability between AI developers and clinical psychologists.
+                Responsible artificial intelligence in psychological assessment, including algorithmic bias taxonomy, the transition from DIF to DAF, and technical-ethical frameworks such as XAI, transparency interfaces, and shared accountability between AI developers and clinical psychologists.
             </p>
             <div class="talk-links">
                 <a href="https://doi.org/10.5281/zenodo.22913926" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
