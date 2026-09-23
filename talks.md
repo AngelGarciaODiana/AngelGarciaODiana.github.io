@@ -30,11 +30,11 @@ layout: default
             <div class="talk-links">
                 <a href="https://doi.org/10.5281/zenodo.22913327" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
                     <i class="fas fa-file-download"></i>
-                    <span data-i18n="talk_apr26_material1">Zenodo - Speaker 1</span>
+                    <span data-i18n="talk_apr26_material1">Zenodo - Speaker 1 (opens in a new tab)</span>
                 </a>
                 <a href="https://doi.org/10.5281/zenodo.22913710" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
                     <i class="fas fa-file-download"></i>
-                    <span data-i18n="talk_apr26_material2">Zenodo - Speaker 2</span>
+                    <span data-i18n="talk_apr26_material2">Zenodo - Speaker 2 (opens in a new tab)</span>
                 </a>
             </div>
         </div>
