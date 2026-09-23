@@ -727,6 +727,10 @@ const translations = {
 };
 
 const ORCID_PEER_REVIEW_URL = 'https://pub.orcid.org/v3.0/0000-0002-1533-7760/peer-review';
+const ORCID_ACCEPT_HEADERS = [
+    'application/vnd.orcid+json',
+    'application/json'
+];
 let peerReviewState = {
     status: 'idle',
     entries: []
@@ -942,11 +946,7 @@ function loadPeerReviewData() {
 
     peerReviewState.status = 'loading';
 
-    fetch(ORCID_PEER_REVIEW_URL, {
-        headers: {
-            'Accept': 'application/json'
-        }
-    })
+    fetchPeerReviewData()
         .then(function (response) {
             if (!response.ok) {
                 throw new Error(`ORCID request failed with status ${response.status}`);
@@ -964,6 +964,24 @@ function loadPeerReviewData() {
             peerReviewState.status = 'error';
             renderPeerReview(getStoredLanguage() || 'en');
         });
+}
+
+function fetchPeerReviewData() {
+    return fetchWithAcceptHeader(0);
+}
+
+function fetchWithAcceptHeader(index) {
+    return fetch(ORCID_PEER_REVIEW_URL, {
+        headers: {
+            'Accept': ORCID_ACCEPT_HEADERS[index]
+        }
+    }).then(function (response) {
+        if (response.ok || index >= ORCID_ACCEPT_HEADERS.length - 1) {
+            return response;
+        }
+
+        return fetchWithAcceptHeader(index + 1);
+    });
 }
 
 document.addEventListener('DOMContentLoaded', function () {
