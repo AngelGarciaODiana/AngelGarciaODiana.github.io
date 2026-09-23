@@ -6,6 +6,41 @@ layout: default
     <h1 class="page-title" data-i18n="nav_talks">Talks</h1>
 
     <div class="talks-year-group">
+        <h2 class="year-label">2026</h2>
+        <div class="talk-card">
+            <h3 class="talk-title" data-i18n="talk_apr26_title">2nd International Congress of Psychology - "Psychological Well-being, Health and Progress"</h3>
+            <div class="talk-meta">
+                <span><i class="far fa-calendar-alt"></i> <span data-i18n="talk_apr26_meta_date">Apr 2026</span></span>
+                <span><i class="fas fa-map-marker-alt"></i> <span data-i18n="talk_apr26_meta_location">Lima, Peru</span></span>
+                <span data-i18n="talk_apr26_type_panel">Congress Panel</span>
+            </div>
+            <ul class="talk-details-list">
+                <li data-i18n="talk_apr26_congress">Congress: 2nd International Congress of Psychology - "Psychological Well-being, Health and Progress"</li>
+                <li data-i18n="talk_apr26_organizer">Organizer: Peruvian College of Psychologists (CPsP)</li>
+                <li data-i18n="talk_apr26_panel">Specialization Committee in Psychometrics Panel</li>
+                <li data-i18n="talk_apr26_datetime">Date & Time: Friday, April 24, 2026, from 3:00 p.m. to 4:00 p.m.</li>
+                <li data-i18n="talk_apr26_mode">Mode: In person</li>
+                <li data-i18n="talk_apr26_place">Venue: Peruvian Biblical Society (SBP), Av. Petit Thouars 991 - Lima</li>
+                <li data-i18n="talk_apr26_moderator">Panel Moderator: Mg. Claudia Guevara</li>
+                <li data-i18n="talk_apr26_speaker1">Speaker 1: Mg. Angel García O'Diana (15 min)</li>
+                <li data-i18n="talk_apr26_topic1">Topic: "Chaos theory applied to psychology: psychometric measures based on entropy and chaos"</li>
+                <li data-i18n="talk_apr26_speaker2">Speaker 2: Mg. Dennis Saúl Calle Huánuco (15 min)</li>
+                <li data-i18n="talk_apr26_topic2">Topic: "Multidimensional well-being in Peru: identification of latent subgroups from a psychometric approach"</li>
+            </ul>
+            <div class="talk-links">
+                <a href="https://doi.org/10.5281/zenodo.22913327" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
+                    <i class="fas fa-file-download"></i>
+                    <span data-i18n="talk_apr26_material1">Zenodo - Speaker 1 (opens in a new tab)</span>
+                </a>
+                <a href="https://doi.org/10.5281/zenodo.22913710" target="_blank" rel="noopener noreferrer" class="talk-btn btn-zenodo">
+                    <i class="fas fa-file-download"></i>
+                    <span data-i18n="talk_apr26_material2">Zenodo - Speaker 2 (opens in a new tab)</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="talks-year-group">
         <h2 class="year-label">2025</h2>
         <div class="talk-card">
             <h3 class="talk-title" data-i18n="talk_csse_title">Socio-emotional Support & Containment Workshop for Emergencies - Natural Disasters (CSSE)</h3>
