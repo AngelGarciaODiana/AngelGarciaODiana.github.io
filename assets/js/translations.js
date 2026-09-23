@@ -108,8 +108,8 @@ const translations = {
         "talk_apr26_topic1": "Tema: \"Teoría del caos aplicada a la psicología: medidas psicométricas basadas en entropía y caos\"",
         "talk_apr26_speaker2": "Ponente 2: Mg. Dennis Saúl Calle Huánuco (15 min)",
         "talk_apr26_topic2": "Tema: \"Bienestar multidimensional en Perú: identificación de subgrupos latentes desde un enfoque psicométrico\"",
-        "talk_apr26_material1": "Zenodo - Ponente 1",
-        "talk_apr26_material2": "Zenodo - Ponente 2",
+        "talk_apr26_material1": "Zenodo - Ponente 1 (abre en una nueva pestaña)",
+        "talk_apr26_material2": "Zenodo - Ponente 2 (abre en una nueva pestaña)",
         
         "talk_may25_title": "Modelando con Jamovi: Introducción Práctica al Análisis de Regresión",
         "talk_may25_desc": "Introducción práctica al análisis de regresión usando Jamovi para investigadores.",
@@ -266,8 +266,8 @@ const translations = {
         "talk_apr26_topic1": "Topic: \"Chaos theory applied to psychology: psychometric measures based on entropy and chaos\"",
         "talk_apr26_speaker2": "Speaker 2: Mg. Dennis Saúl Calle Huánuco (15 min)",
         "talk_apr26_topic2": "Topic: \"Multidimensional well-being in Peru: identification of latent subgroups from a psychometric approach\"",
-        "talk_apr26_material1": "Zenodo - Speaker 1",
-        "talk_apr26_material2": "Zenodo - Speaker 2",
+        "talk_apr26_material1": "Zenodo - Speaker 1 (opens in a new tab)",
+        "talk_apr26_material2": "Zenodo - Speaker 2 (opens in a new tab)",
         
         "talk_may25_title": "Modeling with Jamovi: A Practical Introduction to Regression Analysis",
         "talk_may25_desc": "Practical introduction to regression analysis using Jamovi software.",
@@ -420,8 +420,8 @@ const translations = {
         "talk_apr26_topic1": "Tema: \"Teoria do caos aplicada à psicologia: medidas psicométricas baseadas em entropia e caos\"",
         "talk_apr26_speaker2": "Palestrante 2: Mg. Dennis Saúl Calle Huánuco (15 min)",
         "talk_apr26_topic2": "Tema: \"Bem-estar multidimensional no Peru: identificação de subgrupos latentes a partir de uma abordagem psicométrica\"",
-        "talk_apr26_material1": "Zenodo - Palestrante 1",
-        "talk_apr26_material2": "Zenodo - Palestrante 2",
+        "talk_apr26_material1": "Zenodo - Palestrante 1 (abre em uma nova aba)",
+        "talk_apr26_material2": "Zenodo - Palestrante 2 (abre em uma nova aba)",
         
         "talk_may25_title": "Modelando com Jamovi: Introdução prática à análise de regressão",
         "talk_may25_desc": "Introdução prática à análise de regressão usando o software Jamovi.",
@@ -575,8 +575,8 @@ const translations = {
         "talk_apr26_topic1": "テーマ: 「心理学へのカオス理論の応用：エントロピーとカオスに基づく心理測定指標」",
         "talk_apr26_speaker2": "発表者2: Mg. Dennis Saúl Calle Huánuco（15分）",
         "talk_apr26_topic2": "テーマ: 「ペルーにおける多次元的ウェルビーイング：心理測定アプローチによる潜在サブグループの特定」",
-        "talk_apr26_material1": "Zenodo - 発表者1",
-        "talk_apr26_material2": "Zenodo - 発表者2",
+        "talk_apr26_material1": "Zenodo - 発表者1（新しいタブで開きます）",
+        "talk_apr26_material2": "Zenodo - 発表者2（新しいタブで開きます）",
         
         "talk_may25_title": "Jamoviによるモデリング：回帰分析の実践入門",
         "talk_may25_desc": "Jamoviソフトウェアを使用した回帰分析の実践的入門。",
