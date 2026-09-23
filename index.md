@@ -14,7 +14,7 @@ layout: default
         </p>
         
         <div class="social-icons">
-            <a href="mailto:agarciao10@ucvvirtual.edu.pe" aria-label="Enviar correo a Angel García O'Diana"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            <a href="mailto:ceo@psinetlab.dpdns.org" aria-label="Enviar correo a Angel García O'Diana"><i class="fas fa-envelope" aria-hidden="true"></i></a>
             <a href="https://github.com/angelgarciaodiana" aria-label="Perfil de GitHub de Angel García O'Diana"><i class="fab fa-github" aria-hidden="true"></i></a>
             <a href="https://linkedin.com/in/agarciaodiana" aria-label="Perfil de LinkedIn de Angel García O'Diana"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
             <a href="https://scholar.google.com/citations?user=41nNHwYAAAAJ&hl" aria-label="Perfil de Google Scholar de Angel García O'Diana"><i class="fas fa-graduation-cap" aria-hidden="true"></i></a>
