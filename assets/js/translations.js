@@ -42,6 +42,12 @@ const translations = {
         "footer_text": "© 2026 Ángel García Odiana | Ciencia de Datos & Psicología",
 
         // --- EXPERIENCIA ---
+        "exp_unjournal_role": "Field Specialist",
+        "exp_unjournal_location": "Exeter, Reino Unido · Remoto",
+        "exp_unjournal_date": "Jul 2026 – Presente",
+        "exp_unjournal_desc1": "Curaduría y priorización de investigación cuantitativa de alto impacto en prioridades globales, economía y ciencias sociales.",
+        "exp_unjournal_desc2": "Transformando el paradigma académico mediante la coordinación de evaluación abierta, rigurosa y revisión por pares para investigaciones poco consideradas, a fin de maximizar su impacto en el mundo real.",
+
         "exp_cpsp_role": "Secretario de Actas - Comisión de Especialización en Psicometría",
         "exp_cpsp_date": "Feb 2026 – Presente",
         "exp_cpsp_desc1": "Gestión documentaria y de acuerdos para la especialidad de psicometría a nivel nacional.",
@@ -65,6 +71,18 @@ const translations = {
         "exp_4_role": "Investigador Principal",
         "exp_4_date": "Feb 2021 – Dic 2023",
         "exp_4_desc1": "Realización de investigaciones de alto impacto en psicología de la paz.",
+
+        "peer_review_title": "Revisión por pares",
+        "peer_review_intro": "Este apartado se actualiza automáticamente desde mi registro público de revisiones por pares en ORCID.",
+        "peer_review_source_link": "Ver perfil de ORCID",
+        "peer_review_loading": "Cargando actividad pública de revisión por pares…",
+        "peer_review_empty": "Aún no hay actividades públicas de revisión por pares visibles en ORCID.",
+        "peer_review_error": "No fue posible cargar la actividad de revisión por pares desde ORCID en este momento.",
+        "peer_review_role_label": "Rol",
+        "peer_review_type_label": "Tipo",
+        "peer_review_completion_label": "Fecha",
+        "peer_review_subject_label": "Revista / editorial",
+        "peer_review_updated_label": "Actualizado automáticamente desde ORCID",
 
         // --- PAPERS ---
         "pub_main_author": "Autor Principal",
@@ -209,6 +227,12 @@ const translations = {
         
         "footer_text": "© 2026 Ángel García Odiana | Data Science & Psychology",
 
+        "exp_unjournal_role": "Field Specialist",
+        "exp_unjournal_location": "Exeter, UK · Remote",
+        "exp_unjournal_date": "Jul 2026 – Present",
+        "exp_unjournal_desc1": "Curating and prioritizing high-impact quantitative research in global priorities, economics, and social sciences.",
+        "exp_unjournal_desc2": "Shifting the academic paradigm by coordinating open, rigorous evaluation and peer review for under-considered research to maximize real-world impact.",
+
         "exp_cpsp_role": "Recording Secretary - Psychometrics Specialization Committee",
         "exp_cpsp_date": "Feb 2026 – Present",
         "exp_cpsp_desc1": "Managing documentation, agreements, and the work plan for the national psychometrics specialty.",
@@ -232,6 +256,18 @@ const translations = {
         "exp_4_role": "Principal Investigator",
         "exp_4_date": "Feb 2021 – Dec 2023",
         "exp_4_desc1": "Conducting high-impact research on peace psychology.",
+
+        "peer_review_title": "Peer review",
+        "peer_review_intro": "This section updates automatically from my public ORCID peer-review record.",
+        "peer_review_source_link": "View ORCID profile",
+        "peer_review_loading": "Loading public peer-review activity…",
+        "peer_review_empty": "No public peer-review activities are currently visible on ORCID.",
+        "peer_review_error": "Peer-review activity could not be loaded from ORCID right now.",
+        "peer_review_role_label": "Role",
+        "peer_review_type_label": "Type",
+        "peer_review_completion_label": "Date",
+        "peer_review_subject_label": "Journal / publisher",
+        "peer_review_updated_label": "Updated automatically from ORCID",
 
         "pub_main_author": "Main Author",
         "pub_co_author": "Co-Author",
@@ -369,6 +405,12 @@ const translations = {
         
         "footer_text": "© 2026 Ángel García Odiana | Ciência de Dados & Psicologia",
 
+        "exp_unjournal_role": "Especialista de Campo",
+        "exp_unjournal_location": "Exeter, Reino Unido · Remoto",
+        "exp_unjournal_date": "Jul 2026 – Presente",
+        "exp_unjournal_desc1": "Curadoria e priorização de pesquisas quantitativas de alto impacto em prioridades globais, economia e ciências sociais.",
+        "exp_unjournal_desc2": "Transformando o paradigma acadêmico por meio da coordenação de avaliação aberta, rigorosa e revisão por pares para pesquisas pouco consideradas, maximizando o impacto no mundo real.",
+
         "exp_cpsp_role": "Secretário de Atas - Comitê de Especialização em Psicometria",
         "exp_cpsp_date": "Fev 2026 – Presente",
         "exp_cpsp_desc1": "Gestão de documentação e acordos para a especialidade de psicometria em nível nacional.",
@@ -392,6 +434,18 @@ const translations = {
         "exp_4_role": "Pesquisador Principal",
         "exp_4_date": "Fev 2021 – Dez 2023",
         "exp_4_desc1": "Realização de pesquisas de alto impacto em psicologia da paz.",
+
+        "peer_review_title": "Revisão por pares",
+        "peer_review_intro": "Esta seção é atualizada automaticamente a partir do meu registro público de revisão por pares no ORCID.",
+        "peer_review_source_link": "Ver perfil no ORCID",
+        "peer_review_loading": "Carregando atividade pública de revisão por pares…",
+        "peer_review_empty": "Ainda não há atividades públicas de revisão por pares visíveis no ORCID.",
+        "peer_review_error": "Não foi possível carregar a atividade de revisão por pares do ORCID neste momento.",
+        "peer_review_role_label": "Função",
+        "peer_review_type_label": "Tipo",
+        "peer_review_completion_label": "Data",
+        "peer_review_subject_label": "Revista / editora",
+        "peer_review_updated_label": "Atualizado automaticamente a partir do ORCID",
 
         "pub_main_author": "Autor Principal",
         "pub_co_author": "Coautoria",
@@ -530,6 +584,12 @@ const translations = {
         
         "footer_text": "© 2026 アンヘル・ガルシア | データサイエンス & 心理学",
 
+        "exp_unjournal_role": "フィールドスペシャリスト",
+        "exp_unjournal_location": "英国エクセター · リモート",
+        "exp_unjournal_date": "2026年7月 – 現在",
+        "exp_unjournal_desc1": "グローバル・プライオリティ、経済学、社会科学における高インパクトな定量研究の選定と優先順位付けを担当。",
+        "exp_unjournal_desc2": "十分に検討されていない研究に対して、公開性と厳密性の高い評価・査読を調整し、現実世界での影響を最大化することで学術パラダイムの転換を推進。",
+
         "exp_cpsp_role": "計量心理学専門委員会 記録書記",
         "exp_cpsp_date": "2026年2月 – 現在",
         "exp_cpsp_desc1": "全国計量心理学専門分野の文書および合意事項の管理。",
@@ -553,6 +613,18 @@ const translations = {
         "exp_4_role": "主任研究員",
         "exp_4_date": "2021年2月 – 2023年12月",
         "exp_4_desc1": "平和心理学に関するインパクトの高い研究の実施。",
+
+        "peer_review_title": "査読活動",
+        "peer_review_intro": "このセクションは、ORCID の公開査読記録から自動更新されます。",
+        "peer_review_source_link": "ORCIDプロフィールを見る",
+        "peer_review_loading": "公開されている査読活動を読み込み中…",
+        "peer_review_empty": "現在、ORCID で公開されている査読活動はありません。",
+        "peer_review_error": "現在、ORCID から査読活動を読み込めませんでした。",
+        "peer_review_role_label": "役割",
+        "peer_review_type_label": "種別",
+        "peer_review_completion_label": "日付",
+        "peer_review_subject_label": "誌名 / 出版社",
+        "peer_review_updated_label": "ORCID から自動更新",
 
         "pub_main_author": "筆頭著者",
         "pub_co_author": "共著者",
@@ -654,6 +726,12 @@ const translations = {
     }
 };
 
+const ORCID_PEER_REVIEW_URL = 'https://pub.orcid.org/v3.0/0000-0002-1533-7760/peer-review';
+let peerReviewState = {
+    status: 'idle',
+    entries: []
+};
+
 function getStoredLanguage() {
     try {
         return localStorage.getItem('preferredLanguage');
@@ -705,6 +783,8 @@ function changeLanguage(lang) {
         btn.classList.toggle('active', isActive);
         btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
     });
+
+    renderPeerReview(lang);
 }
 
 function registerLanguageButtons() {
@@ -716,8 +796,179 @@ function registerLanguageButtons() {
     });
 }
 
+function getTranslation(lang, key) {
+    const activeLang = translations[lang] ? lang : 'en';
+    return translations[activeLang][key] || translations.en[key] || '';
+}
+
+function formatPeerReviewDate(completionDate) {
+    if (!completionDate || !completionDate.year || !completionDate.year.value) {
+        return '';
+    }
+
+    const year = String(completionDate.year.value);
+    const month = completionDate.month && completionDate.month.value
+        ? String(completionDate.month.value).padStart(2, '0')
+        : '';
+
+    return month ? `${year}-${month}` : year;
+}
+
+function normalizePeerReviewEntry(summary) {
+    const subject = summary['subject-container-name'] && summary['subject-container-name'].value
+        ? summary['subject-container-name'].value
+        : (summary.organization && summary.organization.name ? summary.organization.name : '');
+
+    return {
+        subject: subject,
+        role: summary['review-role'] || summary['reviewer-role'] || '',
+        type: summary['peer-review-type'] || summary['review-type'] || '',
+        date: formatPeerReviewDate(summary['completion-date'] || summary['review-completion-date'])
+    };
+}
+
+function extractPeerReviewEntries(data) {
+    if (!data || !Array.isArray(data.group)) {
+        return [];
+    }
+
+    const entries = [];
+
+    data.group.forEach(function (group) {
+        if (!group || !Array.isArray(group.summary) || !group.summary.length) {
+            return;
+        }
+
+        const summary = group.summary.find(function (item) {
+            return item && item.visibility === 'public';
+        }) || group.summary[0];
+
+        if (!summary) {
+            return;
+        }
+
+        const entry = normalizePeerReviewEntry(summary);
+        if (entry.subject) {
+            entries.push(entry);
+        }
+    });
+
+    return entries.sort(function (a, b) {
+        return (b.date || '').localeCompare(a.date || '');
+    });
+}
+
+function setPeerReviewStatus(lang, key) {
+    const statusEl = document.getElementById('peer-review-status');
+    if (!statusEl) {
+        return;
+    }
+
+    statusEl.textContent = getTranslation(lang, key);
+    statusEl.hidden = false;
+}
+
+function createPeerReviewMeta(lang, labelKey, value) {
+    const paragraph = document.createElement('p');
+    const label = document.createElement('strong');
+
+    label.textContent = `${getTranslation(lang, labelKey)}: `;
+    paragraph.appendChild(label);
+    paragraph.appendChild(document.createTextNode(value));
+
+    return paragraph;
+}
+
+function renderPeerReview(lang) {
+    const listEl = document.getElementById('peer-review-list');
+    const statusEl = document.getElementById('peer-review-status');
+
+    if (!listEl || !statusEl) {
+        return;
+    }
+
+    listEl.innerHTML = '';
+
+    if (peerReviewState.status === 'loading' || peerReviewState.status === 'idle') {
+        setPeerReviewStatus(lang, 'peer_review_loading');
+        return;
+    }
+
+    if (peerReviewState.status === 'error') {
+        setPeerReviewStatus(lang, 'peer_review_error');
+        return;
+    }
+
+    if (!peerReviewState.entries.length) {
+        setPeerReviewStatus(lang, 'peer_review_empty');
+        return;
+    }
+
+    statusEl.hidden = true;
+
+    peerReviewState.entries.forEach(function (entry) {
+        const card = document.createElement('article');
+        const title = document.createElement('h3');
+        const updated = document.createElement('p');
+
+        card.className = 'peer-review-card';
+        title.textContent = entry.subject;
+        card.appendChild(title);
+
+        if (entry.role) {
+            card.appendChild(createPeerReviewMeta(lang, 'peer_review_role_label', entry.role));
+        }
+
+        if (entry.type) {
+            card.appendChild(createPeerReviewMeta(lang, 'peer_review_type_label', entry.type));
+        }
+
+        if (entry.date) {
+            card.appendChild(createPeerReviewMeta(lang, 'peer_review_completion_label', entry.date));
+        }
+
+        updated.className = 'peer-review-updated';
+        updated.textContent = getTranslation(lang, 'peer_review_updated_label');
+        card.appendChild(updated);
+
+        listEl.appendChild(card);
+    });
+}
+
+function loadPeerReviewData() {
+    if (!document.getElementById('peer-review-list')) {
+        return;
+    }
+
+    peerReviewState.status = 'loading';
+
+    fetch(ORCID_PEER_REVIEW_URL, {
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+        .then(function (response) {
+            if (!response.ok) {
+                throw new Error(`ORCID request failed with status ${response.status}`);
+            }
+
+            return response.json();
+        })
+        .then(function (data) {
+            peerReviewState.entries = extractPeerReviewEntries(data);
+            peerReviewState.status = 'ready';
+            renderPeerReview(getStoredLanguage() || 'en');
+        })
+        .catch(function () {
+            peerReviewState.entries = [];
+            peerReviewState.status = 'error';
+            renderPeerReview(getStoredLanguage() || 'en');
+        });
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     registerLanguageButtons();
+    loadPeerReviewData();
     const savedLang = getStoredLanguage() || 'en';
     changeLanguage(savedLang);
 });
