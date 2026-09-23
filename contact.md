@@ -10,8 +10,8 @@ layout: default
         <div class="contact-info-card">
             <div class="contact-method">
                 <span class="contact-label" data-i18n="contact_email">Email</span>
-                <a href="mailto:angelous.035@gmail.com" class="contact-value">
-                    <i class="fas fa-envelope"></i> agarciao10@ucvvirtual.edu.pe
+                <a href="mailto:ceo@psinetlab.dpdns.org" class="contact-value">
+                    <i class="fas fa-envelope"></i> ceo@psinetlab.dpdns.org
                 </a>
             </div>
 
