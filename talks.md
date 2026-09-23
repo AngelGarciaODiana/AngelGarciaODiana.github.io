@@ -8,14 +8,14 @@ layout: default
     <div class="talks-year-group">
         <h2 class="year-label">2026</h2>
         <div class="talk-card">
-            <h3 class="talk-title" data-i18n="talk_apr26_title">II International Congress of Psychology - "Psychological Well-being, Health and Progress"</h3>
+            <h3 class="talk-title" data-i18n="talk_apr26_title">2nd International Congress of Psychology - "Psychological Well-being, Health and Progress"</h3>
             <div class="talk-meta">
                 <span><i class="far fa-calendar-alt"></i> <span data-i18n="talk_apr26_meta_date">Apr 2026</span></span>
                 <span><i class="fas fa-map-marker-alt"></i> <span data-i18n="talk_apr26_meta_location">Lima, Peru</span></span>
                 <span data-i18n="talk_apr26_type_panel">Congress Panel</span>
             </div>
             <ul class="talk-details-list">
-                <li data-i18n="talk_apr26_congress">Congress: II International Congress of Psychology - "Psychological Well-being, Health and Progress"</li>
+                <li data-i18n="talk_apr26_congress">Congress: 2nd International Congress of Psychology - "Psychological Well-being, Health and Progress"</li>
                 <li data-i18n="talk_apr26_organizer">Organizer: Peruvian College of Psychologists (CPsP)</li>
                 <li data-i18n="talk_apr26_panel">Specialization Committee in Psychometrics Panel</li>
                 <li data-i18n="talk_apr26_datetime">Date & Time: Friday, April 24, 2026, from 3:00 p.m. to 4:00 p.m.</li>
